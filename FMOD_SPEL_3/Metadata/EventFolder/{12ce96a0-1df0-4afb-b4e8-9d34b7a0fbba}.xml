@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{12ce96a0-1df0-4afb-b4e8-9d34b7a0fbba}">
+		<property name="name">
+			<value>Desert_planet_Ambience</value>
+		</property>
+		<relationship name="folder">
+			<destination>{92e0dc1e-5f99-4e23-89cf-7ffc4971f266}</destination>
+		</relationship>
+	</object>
+</objects>
