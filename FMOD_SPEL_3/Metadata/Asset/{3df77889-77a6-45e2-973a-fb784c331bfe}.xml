@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{3df77889-77a6-45e2-973a-fb784c331bfe}">
+		<property name="assetPath">
+			<value>Ambience/Caves/Water_Drip/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
+	</object>
+</objects>

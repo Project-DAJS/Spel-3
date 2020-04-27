@@ -102,9 +102,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{056d298c-80f7-4669-8620-b577f1972576}">
-		<property name="volume">
-			<value>-7</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{4712db8e-06c0-4021-958b-f0f264fc58a9}</destination>
 		</relationship>
@@ -163,7 +160,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5c83b08b-0c9a-4168-9b30-5103d5b1b3ee}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Desert_Wind_Base</value>
@@ -186,7 +183,7 @@
 			<value>8</value>
 		</property>
 		<property name="polyphony">
-			<value>2</value>
+			<value>6</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>870</value>
@@ -199,6 +196,9 @@
 		</property>
 		<property name="maximumScatterDistance">
 			<value>45</value>
+		</property>
+		<property name="pitchRandomization">
+			<value>12</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{d6276069-b28e-43c1-abd2-72cfd8515510}</destination>
@@ -225,7 +225,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0c336949-9525-4a97-9d62-c18850f5fd3e}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>Gust_Scatter</value>
@@ -272,7 +272,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{69181cb1-ef3e-45c6-8efb-b54c137b763c}">
 		<property name="volume">
-			<value>-37</value>
+			<value>-33</value>
 		</property>
 		<property name="name">
 			<value>FREQ_Wind_Distant</value>
@@ -294,7 +294,6 @@
 		<property name="length">
 			<value>51</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{cbd9a586-69cb-4d21-be8d-6fe2643465de}</destination>
 		</relationship>
@@ -346,6 +345,7 @@
 	<object class="MixerBusEffectChain" id="{f3b506d6-fe11-463a-9b5f-9c6fcf358cde}">
 		<relationship name="effects">
 			<destination>{b88eb416-f556-49b3-91c9-1f659d8e221c}</destination>
+			<destination>{cd2a9b04-cffe-4651-9fe9-9330cca094f6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ea924c3-24db-45f0-b53c-d8c119aa1252}" />
@@ -455,7 +455,7 @@
 	<object class="MixerBusFader" id="{00c6b9db-9b63-4d99-beab-f393fd325adc}" />
 	<object class="ThreeEQEffect" id="{7e0e371a-d800-438b-ba67-d1810903e3af}">
 		<property name="lowGain">
-			<value>-36</value>
+			<value>-4.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{60dc764a-705d-43ce-8bd7-115634455984}">
@@ -516,6 +516,26 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b88eb416-f556-49b3-91c9-1f659d8e221c}" />
+	<object class="MultibandEqEffect" id="{cd2a9b04-cffe-4651-9fe9-9330cca094f6}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>5841.67676</value>
+		</property>
+		<property name="frequencyB">
+			<value>261.100159</value>
+		</property>
+		<property name="qualityA">
+			<value>1.40323079</value>
+		</property>
+		<property name="qualityB">
+			<value>1.19999993</value>
+		</property>
+		<property name="gainB">
+			<value>-7.44312096</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{f5945794-147e-4577-be3b-a427a484b0e8}">
 		<relationship name="audioFile">
 			<destination>{54e87ff9-453a-4c55-94a3-c4c41e2dc314}</destination>
@@ -528,7 +548,7 @@
 	</object>
 	<object class="SingleSound" id="{d980f035-fcc8-420d-b614-4f7dbc9eac22}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="pitch">
 			<value>-7</value>
@@ -579,7 +599,7 @@
 	<object class="MixerBusFader" id="{6d617b2f-65e5-4f24-800c-f47c43503d4d}" />
 	<object class="ThreeEQEffect" id="{dadc5f1f-3e20-456f-8a02-08e78180ebe3}">
 		<property name="lowGain">
-			<value>-6</value>
+			<value>-8.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{01481318-aa6e-4863-909d-87dc4b5b922c}">
@@ -632,7 +652,7 @@
 			<value>100</value>
 		</property>
 		<property name="releaseTime">
-			<value>940</value>
+			<value>340</value>
 		</property>
 		<property name="linkChannels">
 			<value>false</value>
