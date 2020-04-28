@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{ec6e736b-b59b-4e7f-9a3e-01d82b738856}">
+		<property name="name">
+			<value>IR_Reverb_Desert</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{98767d06-40e0-458e-842b-05cefcbe58d0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4dc5c45f-5db2-4ad3-abd9-f1954995eee1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{98767d06-40e0-458e-842b-05cefcbe58d0}">
+		<relationship name="effects">
+			<destination>{0c9efc48-00f2-4c0a-b814-34e84e19dc39}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4dc5c45f-5db2-4ad3-abd9-f1954995eee1}" />
+	<object class="MixerBusFader" id="{0c9efc48-00f2-4c0a-b814-34e84e19dc39}" />
+</objects>

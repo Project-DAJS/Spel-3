@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{65262aca-15a7-4afb-bed4-11ebf5fab43d}">
+		<property name="name">
+			<value>IR_Reverb_Mountain</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{edb629c3-d440-4dfa-bf42-48f30a008708}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{dc95e920-9256-4d8b-9dd5-3456d99852e6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{edb629c3-d440-4dfa-bf42-48f30a008708}">
+		<relationship name="effects">
+			<destination>{77dd60bc-6919-4db9-94b2-10a5ee8ff1f7}</destination>
+			<destination>{5fb35085-0e73-41ff-97ee-9ec869cc6f62}</destination>
+			<destination>{d170517f-8bc3-4186-84df-ed15363f82ce}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{dc95e920-9256-4d8b-9dd5-3456d99852e6}" />
+	<object class="MixerBusFader" id="{77dd60bc-6919-4db9-94b2-10a5ee8ff1f7}" />
+	<object class="ThreeEQEffect" id="{5fb35085-0e73-41ff-97ee-9ec869cc6f62}">
+		<property name="lowGain">
+			<value>-18</value>
+		</property>
+		<property name="midGain">
+			<value>-2</value>
+		</property>
+		<property name="highGain">
+			<value>-7</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{d170517f-8bc3-4186-84df-ed15363f82ce}">
+		<property name="endFrame">
+			<value>235002</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{e5e220af-1297-48f6-ad0c-4636c0def400}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -33,6 +33,9 @@
 		<relationship name="timeline">
 			<destination>{cbd9a586-69cb-4d21-be8d-6fe2643465de}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{26712e16-8262-49c7-8c3e-286cbf648b75}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{d3f1d3e0-1e11-48eb-8c21-7ea420ce8e4b}">
 		<relationship name="masterBus">
@@ -225,7 +228,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0c336949-9525-4a97-9d62-c18850f5fd3e}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-17.5</value>
 		</property>
 		<property name="name">
 			<value>Gust_Scatter</value>
@@ -272,10 +275,10 @@
 	</object>
 	<object class="EventMixerGroup" id="{69181cb1-ef3e-45c6-8efb-b54c137b763c}">
 		<property name="volume">
-			<value>-33</value>
+			<value>-26</value>
 		</property>
 		<property name="name">
-			<value>FREQ_Wind_Distant</value>
+			<value>SpaceWind</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{aa20436c-07b4-4333-b6d2-81855b2427ff}</destination>
@@ -391,6 +394,7 @@
 			<destination>{bada17b2-57ef-435e-a621-2b80c02bc92f}</destination>
 			<destination>{6d617b2f-65e5-4f24-800c-f47c43503d4d}</destination>
 			<destination>{dadc5f1f-3e20-456f-8a02-08e78180ebe3}</destination>
+			<destination>{c41cc450-fecf-4a56-849f-a09ee0361553}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ebcf17e5-05f0-4b5b-8090-6b5b87258450}" />
@@ -600,6 +604,14 @@
 	<object class="ThreeEQEffect" id="{dadc5f1f-3e20-456f-8a02-08e78180ebe3}">
 		<property name="lowGain">
 			<value>-8.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{c41cc450-fecf-4a56-849f-a09ee0361553}">
+		<property name="threshold">
+			<value>-46</value>
+		</property>
+		<property name="gain">
+			<value>11</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{01481318-aa6e-4863-909d-87dc4b5b922c}">

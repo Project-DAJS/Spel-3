@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6126dc87-41bb-4e9c-a12b-417376f6a742}</destination>
+			<destination>{92e0dc1e-5f99-4e23-89cf-7ffc4971f266}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{ba9c2791-e10b-458b-a3bd-063c62718dfc}</destination>
@@ -114,9 +114,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{57b6e7df-59e2-4ab5-bc61-b108f41d262a}">
-		<property name="volume">
-			<value>-5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{a3ee219a-7be4-4eec-9086-9991d039fb20}</destination>
 		</relationship>
@@ -171,6 +168,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{468ab7fe-ab27-435e-99b1-a223b5279439}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Cave/w wind</value>
 		</property>
@@ -313,7 +313,7 @@
 			<value>-7</value>
 		</property>
 		<property name="name">
-			<value>Water_dropplet_?</value>
+			<value>[Optional] Water_Dropplet</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4add3eac-c3be-4012-b6d7-0905a77ff58b}</destination>
