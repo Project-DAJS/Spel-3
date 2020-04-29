@@ -240,8 +240,11 @@
 		</property>
 	</object>
 	<object class="SoundScatterer" id="{826eadf6-7046-48c8-b611-ece0fc57875f}">
+		<property name="start">
+			<value>5</value>
+		</property>
 		<property name="length">
-			<value>60</value>
+			<value>55</value>
 		</property>
 		<property name="volume">
 			<value>6</value>
@@ -303,8 +306,11 @@
 		</property>
 	</object>
 	<object class="SoundScatterer" id="{d34bc68b-fc80-45ef-ba4c-6afc7c3e6670}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
-			<value>60</value>
+			<value>58</value>
 		</property>
 		<property name="delayType">
 			<value>0</value>
@@ -356,8 +362,11 @@
 		</property>
 	</object>
 	<object class="SoundScatterer" id="{3cf341ad-6a53-4004-ae93-2b051c9f4e5e}">
+		<property name="start">
+			<value>5</value>
+		</property>
 		<property name="length">
-			<value>60</value>
+			<value>55</value>
 		</property>
 		<property name="delayType">
 			<value>0</value>
@@ -403,8 +412,11 @@
 		</property>
 	</object>
 	<object class="SoundScatterer" id="{481f835c-60b6-410c-ab03-d8ee782748b0}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
-			<value>60</value>
+			<value>58</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>4000</value>
