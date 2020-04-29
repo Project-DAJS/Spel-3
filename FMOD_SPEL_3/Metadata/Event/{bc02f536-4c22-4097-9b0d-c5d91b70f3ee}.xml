@@ -228,7 +228,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0c336949-9525-4a97-9d62-c18850f5fd3e}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-18</value>
 		</property>
 		<property name="name">
 			<value>Gust_Scatter</value>
@@ -275,7 +275,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{69181cb1-ef3e-45c6-8efb-b54c137b763c}">
 		<property name="volume">
-			<value>-26</value>
+			<value>-30</value>
 		</property>
 		<property name="name">
 			<value>SpaceWind</value>
