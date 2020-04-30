@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{3f9d0f32-8c08-4f8e-8771-e9bd8d6ed670}">
+		<property name="assetPath">
+			<value>NPC_EFFECTS/Spiders/Spider_Attack/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
+	</object>
+</objects>
