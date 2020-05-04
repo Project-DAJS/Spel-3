@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Bank" id="{4c781484-c477-4353-9a9b-7e4464cfe48b}">
+		<property name="name">
+			<value>Forest_Ambience_SpotSounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e40c0608-5b52-46cc-9953-e23e9c22cc9b}</destination>
+		</relationship>
+	</object>
+</objects>

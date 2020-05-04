@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5213d77b-5a4f-41a9-b6f8-6cad26b2b260}</destination>
+			<destination>{62c585e9-4701-4224-af1c-7aa2573a8dcd}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{77fd27c2-6dd4-4c0b-ab81-861cb391e807}</destination>
@@ -35,6 +35,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4cc6fd81-6ad2-4517-9268-681224d83fbf}</destination>
+			<destination>{4c781484-c477-4353-9a9b-7e4464cfe48b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{77fd27c2-6dd4-4c0b-ab81-861cb391e807}">
@@ -465,13 +466,13 @@
 	</object>
 	<object class="SpatialiserEffect" id="{9243e800-1eb8-4928-a0f5-5c6f290697c3}">
 		<property name="distanceRolloffType">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="minimumDistance">
 			<value>0.599999964</value>
 		</property>
 		<property name="maximumDistance">
-			<value>8.40000057</value>
+			<value>9.80000019</value>
 		</property>
 		<property name="extentMode">
 			<value>1</value>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Bank" id="{f0b0483e-9df9-48f6-8c89-67b277340458}">
+		<property name="name">
+			<value>Mountain_Ambience_SpotSounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e2c3757b-9abc-490b-9609-fcf3bb793b30}</destination>
+		</relationship>
+	</object>
+</objects>

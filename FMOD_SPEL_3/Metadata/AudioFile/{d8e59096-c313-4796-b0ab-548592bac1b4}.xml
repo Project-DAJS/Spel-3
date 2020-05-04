@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{97738c27-c81b-4f5f-bb4b-7f8d631986c3}">
+	<object class="AudioFile" id="{d8e59096-c313-4796-b0ab-548592bac1b4}">
 		<property name="assetPath">
-			<value>Character SFX/Spiders/Spider_Boing_4.wav</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Death/Spider_Death_Gore_4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.31249433106575963</value>
+			<value>2.25</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

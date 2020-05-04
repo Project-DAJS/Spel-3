@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{c7c7d890-e652-4c1d-ac6f-54dfe5a2b258}">
 		<property name="name">
-			<value>Lake_Ambience</value>
+			<value>Forest_Lake_Ambience_3D</value>
 		</property>
 		<property name="note">
 			<value>Bubble_pop might be triggered inside unreal engine instead</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5213d77b-5a4f-41a9-b6f8-6cad26b2b260}</destination>
+			<destination>{b217e7cc-af78-4ec8-bb41-45f26140d465}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{efec8a94-d4f8-4e8b-8c8e-7f88bdb29f85}</destination>
@@ -232,7 +232,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a2231a96-a811-49da-8cf0-397f62d50984}">
 		<property name="volume">
-			<value>-17.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="name">
 			<value>Frogs/cursed chatting</value>
@@ -273,7 +273,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d1750e58-66d2-4a30-8cf5-f129787a08bd}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-23</value>
 		</property>
 		<property name="name">
 			<value>Poison_Bubble_Bed</value>
@@ -814,8 +814,11 @@
 	</object>
 	<object class="MixerBusFader" id="{a0c4ec40-4b76-4610-b5bd-cc5aab1af63b}" />
 	<object class="ThreeEQEffect" id="{2512bb3f-634f-43c4-b2cb-4bf698b226ff}">
+		<property name="lowGain">
+			<value>-15.5</value>
+		</property>
 		<property name="highGain">
-			<value>-11</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="MixerSend" id="{0451ef38-7318-4370-9139-9a530fe8c0c9}">

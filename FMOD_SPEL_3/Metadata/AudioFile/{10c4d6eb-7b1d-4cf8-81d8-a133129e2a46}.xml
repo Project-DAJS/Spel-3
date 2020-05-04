@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{10c4d6eb-7b1d-4cf8-81d8-a133129e2a46}">
 		<property name="assetPath">
-			<value>NPC_EFFECTS/Spiders/Spider_Chatter_3.wav</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Idle/Spider_Chatter_3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

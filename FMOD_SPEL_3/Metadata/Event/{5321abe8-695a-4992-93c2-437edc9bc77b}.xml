@@ -182,7 +182,7 @@ PLaye Distance  = </value>
 			<value>-11</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>ArcadeBoing</value>
 		</property>
 		<relationship name="automators">
 			<destination>{62d44430-9482-45cd-abb2-71268ad9ad29}</destination>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="EncodableAsset" id="{6054a745-fb14-4628-bd60-74dcaf1ba14f}">
+	<object class="EncodableAsset" id="{94075641-0c9b-43ba-927d-09aeba852a8c}">
 		<property name="assetPath">
-			<value>Character SFX/Spiders/</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Idle/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

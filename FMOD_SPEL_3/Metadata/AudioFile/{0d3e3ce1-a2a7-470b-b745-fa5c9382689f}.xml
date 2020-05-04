@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{6bc56aa6-ce48-4173-bc44-48afaf4f77fd}">
+	<object class="AudioFile" id="{0d3e3ce1-a2a7-470b-b745-fa5c9382689f}">
 		<property name="assetPath">
-			<value>Character SFX/Spiders/Spider_Boing_Retro_4.wav</value>
+			<value>Ambience/Trees/Leaves_Rustle_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.31249433106575963</value>
+			<value>1.3749886621315193</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

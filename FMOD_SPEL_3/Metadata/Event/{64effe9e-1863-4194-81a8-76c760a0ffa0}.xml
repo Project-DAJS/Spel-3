@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{92e0dc1e-5f99-4e23-89cf-7ffc4971f266}</destination>
+			<destination>{29f50b21-21b5-440d-9900-fa3ef36c9e81}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{ba9c2791-e10b-458b-a3bd-063c62718dfc}</destination>
@@ -252,7 +252,7 @@
 			<value>3000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>8000</value>
+			<value>5000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>7.84999943</value>
@@ -313,7 +313,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{35eebb62-6bcd-4096-9fd1-30cce84217b7}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>[Optional] Water_Dropplet</value>

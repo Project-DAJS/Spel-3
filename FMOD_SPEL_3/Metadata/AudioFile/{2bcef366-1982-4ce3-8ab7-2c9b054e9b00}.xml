@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{2bcef366-1982-4ce3-8ab7-2c9b054e9b00}">
 		<property name="assetPath">
-			<value>NPC_EFFECTS/Spiders/Spider_Boing_Retro_1.wav</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Jumps/Spider_Boing_Retro_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

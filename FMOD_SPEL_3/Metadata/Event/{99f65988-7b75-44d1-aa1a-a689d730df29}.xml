@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6126dc87-41bb-4e9c-a12b-417376f6a742}</destination>
+			<destination>{98a9e558-ea42-4354-a795-a77a9fc9bcd6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{49632300-4ffa-45ab-a69f-9e02f5c8d8da}</destination>
@@ -122,7 +122,10 @@
 	<object class="MixerBusPanner" id="{aa4348b1-3e3d-4aad-999a-82e2f6c5529b}" />
 	<object class="SingleSound" id="{2ede218d-b014-4624-8988-1d5d27d646e0}">
 		<property name="length">
-			<value>60</value>
+			<value>46</value>
+		</property>
+		<property name="pitch">
+			<value>4.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{2f1ad571-1830-460e-99a8-62ee41871d28}</destination>
@@ -149,7 +152,7 @@
 			<value>-26</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Crystal loop</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{3fa4662b-cca1-471a-a327-d50af8d82337}</destination>
@@ -166,7 +169,7 @@
 			<value>3</value>
 		</property>
 		<property name="length">
-			<value>55</value>
+			<value>42</value>
 		</property>
 		<property name="pitch">
 			<value>-12.5</value>
@@ -206,7 +209,7 @@
 			<value>5</value>
 		</property>
 		<property name="length">
-			<value>50</value>
+			<value>38</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{3c87f4fb-2749-4883-affc-8819111f6911}</destination>
@@ -254,6 +257,7 @@
 			<destination>{60525e6f-7fd3-4983-b63c-26463f599234}</destination>
 			<destination>{a5065d11-c813-445b-b60b-6bf4fb04de53}</destination>
 			<destination>{028b82f7-7059-4633-b7a5-a514b6cc9b82}</destination>
+			<destination>{4bb3a44f-943d-4b39-b865-50a94a469663}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3aaeba00-0cbd-4e0c-bbc9-0213d7077ae5}" />
@@ -364,6 +368,17 @@
 		</property>
 		<property name="qualityA">
 			<value>1.537714</value>
+		</property>
+	</object>
+	<object class="DelayEffect" id="{4bb3a44f-943d-4b39-b865-50a94a469663}">
+		<property name="delay">
+			<value>180</value>
+		</property>
+		<property name="feedback">
+			<value>56.5</value>
+		</property>
+		<property name="level">
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{460df1d6-0fba-406d-a82d-9caafd3a7371}">
