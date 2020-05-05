@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Bank" id="{5c5c96c6-aa37-4261-9fa7-231c830d6cf7}">
+		<property name="name">
+			<value>Laser_Weapon</value>
+		</property>
+		<relationship name="folder">
+			<destination>{19c4af56-834a-46f5-9881-6611f857d229}</destination>
+		</relationship>
+	</object>
+</objects>

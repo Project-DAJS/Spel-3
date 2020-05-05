@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{5e4f90ed-9077-43d0-9ffd-ce0058b6677e}">
+		<property name="name">
+			<value>Spider_Jump_MaterialType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{79954f6c-473a-471e-9c79-6fdcec62df55}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{79954f6c-473a-471e-9c79-6fdcec62df55}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{b6ad2285-08e1-4ec7-ba5a-8b1aa82f1aaf}">
+		<property name="assetPath">
+			<value>NPC_EFFECTS/Spiders/Spider_Jumps/Jump_Material/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
+	</object>
+</objects>
