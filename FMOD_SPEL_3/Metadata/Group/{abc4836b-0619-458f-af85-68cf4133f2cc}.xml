@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{abc4836b-0619-458f-af85-68cf4133f2cc}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>Mountain_Spot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d53f4bd0-c1f0-495b-8ee8-51b1036c7e2a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{711a3baa-e2f6-4524-a0b1-d5ae18dd48bf}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{876482e8-d4d6-4aff-9580-6c4d7b23d67a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d53f4bd0-c1f0-495b-8ee8-51b1036c7e2a}">
+		<relationship name="effects">
+			<destination>{3ffe9bff-e57f-47f2-a899-43e3b05364c1}</destination>
+			<destination>{fc839bf1-e690-4b2c-bc52-cc2cf4d1af71}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{711a3baa-e2f6-4524-a0b1-d5ae18dd48bf}" />
+	<object class="MixerSend" id="{3ffe9bff-e57f-47f2-a899-43e3b05364c1}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{fc839bf1-e690-4b2c-bc52-cc2cf4d1af71}" />
+</objects>

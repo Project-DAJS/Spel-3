@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="SnapshotGroup" id="{e26dea7b-0726-4bc4-a27e-1bd63f898b47}">
+		<property name="name">
+			<value>Desert_Ambience_Shifts</value>
+		</property>
+		<relationship name="folder">
+			<destination>{609d7a35-6ecb-45a6-87c7-247d67ba553b}</destination>
+		</relationship>
+		<relationship name="items">
+			<destination>{cc796065-d704-49b9-ac85-377237a77faa}</destination>
+			<destination>{6a35d66e-7096-43e6-96cb-61fc126ff950}</destination>
+		</relationship>
+	</object>
+</objects>

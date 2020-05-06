@@ -57,7 +57,7 @@
 			<destination>{cd43a6e5-b88b-49b6-a05f-4f5f30de552d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{eeb091f2-f8f2-4d8f-9b94-2d2666125f64}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9d1be43b-0fd9-480f-b40c-f3b70830d241}" />
@@ -185,6 +185,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{a3168095-5324-4cd1-af46-0ed933122f9b}">
 		<relationship name="effects">
+			<destination>{76244f5b-18e8-47fa-be46-3e9bf2ec2994}</destination>
 			<destination>{09bbe8e6-67ae-4e93-bb83-42a33ecda02c}</destination>
 			<destination>{3ec5f11e-52e9-4ac3-a80a-6c9a098d4f0c}</destination>
 		</relationship>
@@ -236,7 +237,6 @@
 			<destination>{dd8ff955-6ef8-4ec3-b397-fa691384df6f}</destination>
 			<destination>{0e0744f2-b73e-40b4-bb08-3163a32fb2d1}</destination>
 			<destination>{68f4b4d2-480b-452e-a3b0-2c3856ef1001}</destination>
-			<destination>{d668c58c-6b18-4d5f-b8ef-2b4f0f7241fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d29db208-e62f-49e3-8a8e-383b206c4fbc}" />
@@ -249,6 +249,14 @@
 			<destination>{4f8fa183-a360-4932-bda6-657e4cc6b3d9}</destination>
 			<destination>{03e9cdc0-8e8e-4727-8c3e-230b35827b90}</destination>
 			<destination>{c589515b-ff02-4a0c-85df-6a17b5101b2d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{76244f5b-18e8-47fa-be46-3e9bf2ec2994}">
+		<property name="inputFormat">
+			<value>5</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{09bbe8e6-67ae-4e93-bb83-42a33ecda02c}" />
@@ -334,16 +342,5 @@
 		<property name="gain">
 			<value>25.5</value>
 		</property>
-	</object>
-	<object class="MixerSend" id="{d668c58c-6b18-4d5f-b8ef-2b4f0f7241fe}">
-		<property name="level">
-			<value>-7</value>
-		</property>
-		<property name="inputFormat">
-			<value>5</value>
-		</property>
-		<relationship name="mixerReturn">
-			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
-		</relationship>
 	</object>
 </objects>

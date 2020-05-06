@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{9d5698ad-7927-40a0-ab3d-11bae9aa9341}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>Mountain_Cave</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{59f4d263-1914-4a5e-b36f-a9e49c581b2c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cf5d287f-0e81-4bec-9042-7fc030d098c9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{876482e8-d4d6-4aff-9580-6c4d7b23d67a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{59f4d263-1914-4a5e-b36f-a9e49c581b2c}">
+		<relationship name="effects">
+			<destination>{2d4c20a0-5047-4ff9-b244-68b680ed6f69}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cf5d287f-0e81-4bec-9042-7fc030d098c9}" />
+	<object class="MixerBusFader" id="{2d4c20a0-5047-4ff9-b244-68b680ed6f69}" />
+</objects>

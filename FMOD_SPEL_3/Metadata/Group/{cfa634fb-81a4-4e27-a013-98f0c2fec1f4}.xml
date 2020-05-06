@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{cfa634fb-81a4-4e27-a013-98f0c2fec1f4}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+		<property name="name">
+			<value>Desert_Spot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4956351a-956a-46f6-8cd8-5647951c55e1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ea85b35f-e5e1-445d-96eb-caf58789572e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0244a548-3e2f-4ee1-ace3-86e83f2d00ce}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4956351a-956a-46f6-8cd8-5647951c55e1}">
+		<relationship name="effects">
+			<destination>{2e936051-8eaf-4a0e-ba2a-077bac5d75ff}</destination>
+			<destination>{1288f559-8594-410c-973c-b55577fb3c16}</destination>
+			<destination>{2b26a6d4-2db5-48a6-b721-2bbfe8902a27}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ea85b35f-e5e1-445d-96eb-caf58789572e}" />
+	<object class="ThreeEQEffect" id="{2e936051-8eaf-4a0e-ba2a-077bac5d75ff}" />
+	<object class="MixerSend" id="{1288f559-8594-410c-973c-b55577fb3c16}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{ec6e736b-b59b-4e7f-9a3e-01d82b738856}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{2b26a6d4-2db5-48a6-b721-2bbfe8902a27}" />
+</objects>

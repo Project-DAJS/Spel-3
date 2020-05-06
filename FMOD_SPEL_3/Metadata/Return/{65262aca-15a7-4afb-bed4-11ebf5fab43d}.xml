@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerReturn" id="{65262aca-15a7-4afb-bed4-11ebf5fab43d}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>IR_Reverb_Mountain</value>
 		</property>

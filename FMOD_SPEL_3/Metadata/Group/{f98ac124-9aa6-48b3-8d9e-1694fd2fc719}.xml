@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{f98ac124-9aa6-48b3-8d9e-1694fd2fc719}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>Mountain_Overworld</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f34a9954-0a1f-4278-8bf7-b4b35562ee94}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ed38a5fa-e810-4bb5-8ee1-5a63f965af0b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{876482e8-d4d6-4aff-9580-6c4d7b23d67a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f34a9954-0a1f-4278-8bf7-b4b35562ee94}">
+		<relationship name="effects">
+			<destination>{ecbaf8ba-1db6-4f2a-bf3e-efdbe2f1b83f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ed38a5fa-e810-4bb5-8ee1-5a63f965af0b}" />
+	<object class="MixerBusFader" id="{ecbaf8ba-1db6-4f2a-bf3e-efdbe2f1b83f}" />
+</objects>

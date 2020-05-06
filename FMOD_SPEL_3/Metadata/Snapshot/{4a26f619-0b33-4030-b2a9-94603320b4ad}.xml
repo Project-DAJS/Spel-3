@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{4a26f619-0b33-4030-b2a9-94603320b4ad}">
+		<property name="name">
+			<value>Forest_Main</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{23c5ffdb-8605-4a43-bc58-6763bbd75e73}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{38f6dc95-2641-41c0-9fdf-f4f15f623230}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{374fe2d8-9c95-49bf-a2ba-ab1d0cd092fd}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{678123a3-3f11-4bd3-a968-204b107b5c9a}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{3aa03093-1243-4ed1-85e8-661a1bcd7a04}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{babb9f03-2b81-497f-afb3-57fea1228c87}</destination>
+			<destination>{f75510dd-82a4-430f-8afa-78ab9de36cd9}</destination>
+			<destination>{29eb1be7-098c-4172-9fd2-10cf97c7c212}</destination>
+			<destination>{86d6e5c0-3322-4b6a-8e3a-5756d75e3670}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{2857e939-a7cb-4b2b-a965-aba529db191f}</destination>
+			<destination>{94b4d50a-88b1-46ed-88c6-e1a1ae85068f}</destination>
+			<destination>{2129b701-e2c3-49da-a412-a11eb4ee89b9}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{38f6dc95-2641-41c0-9fdf-f4f15f623230}" />
+	<object class="MarkerTrack" id="{374fe2d8-9c95-49bf-a2ba-ab1d0cd092fd}" />
+	<object class="Timeline" id="{678123a3-3f11-4bd3-a968-204b107b5c9a}" />
+	<object class="SnapshotMasterTrack" id="{3aa03093-1243-4ed1-85e8-661a1bcd7a04}" />
+	<object class="SnapshotProperty" id="{babb9f03-2b81-497f-afb3-57fea1228c87}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-7.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{eeb091f2-f8f2-4d8f-9b94-2d2666125f64}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{f75510dd-82a4-430f-8afa-78ab9de36cd9}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d1991ebe-4a23-4ae9-b07e-92bdf5d3b6b0}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{29eb1be7-098c-4172-9fd2-10cf97c7c212}">
+		<property name="propertyName">
+			<value>level</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6becf8fc-14dc-4ee8-81a0-93f419d57b66}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{d8132037-be78-422c-a051-340384a9b8b3}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{86d6e5c0-3322-4b6a-8e3a-5756d75e3670}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-36</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0b1eda70-066f-4a95-93a8-706cb209909d}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{2857e939-a7cb-4b2b-a965-aba529db191f}">
+		<relationship name="mixerStrip">
+			<destination>{eeb091f2-f8f2-4d8f-9b94-2d2666125f64}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{94b4d50a-88b1-46ed-88c6-e1a1ae85068f}">
+		<relationship name="mixerStrip">
+			<destination>{d1991ebe-4a23-4ae9-b07e-92bdf5d3b6b0}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{2129b701-e2c3-49da-a412-a11eb4ee89b9}">
+		<relationship name="mixerStrip">
+			<destination>{0b1eda70-066f-4a95-93a8-706cb209909d}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{6becf8fc-14dc-4ee8-81a0-93f419d57b66}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="amount">
+			<value>17.5</value>
+		</property>
+	</object>
+</objects>

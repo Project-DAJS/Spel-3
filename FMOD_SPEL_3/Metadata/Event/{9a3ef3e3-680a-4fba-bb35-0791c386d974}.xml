@@ -47,6 +47,9 @@ Material types:
 			<destination>{37ff54f3-d2ac-44b8-bf45-280076eecf6e}</destination>
 			<destination>{158c5738-4847-40b5-8ed9-1374afcaafa7}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{f94ae298-643e-4f1f-902c-e77e4541a5ca}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{b7bf625d-f470-4926-94ae-bc3564bf4235}">
 		<relationship name="masterBus">
@@ -66,7 +69,7 @@ Material types:
 			<destination>{0c72dba3-4a1d-4bf4-9390-20bceabe486c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{9002b4de-dcfa-4927-b683-dd10089ebe27}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a73f11c9-978e-42f5-a3c8-5c3b2e29aeea}" />
@@ -329,7 +332,6 @@ Material types:
 	<object class="MixerBusEffectChain" id="{b85d70d5-4fd5-48b0-b174-ab87a2f4dd38}">
 		<relationship name="effects">
 			<destination>{481b52ba-ffe7-4de5-b29d-0acd9d01e26a}</destination>
-			<destination>{2ad9d1fc-b51d-4a13-be65-8be8691e7b1d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{59302ba7-9fc2-4b1f-bd13-9f44c8965424}" />
@@ -477,17 +479,6 @@ Material types:
 	</object>
 	<object class="MixerBusPanner" id="{abc01c89-878d-44b6-924b-1c6d9afe9d67}" />
 	<object class="MixerBusFader" id="{481b52ba-ffe7-4de5-b29d-0acd9d01e26a}" />
-	<object class="MixerSend" id="{2ad9d1fc-b51d-4a13-be65-8be8691e7b1d}">
-		<property name="level">
-			<value>-58</value>
-		</property>
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="mixerReturn">
-			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationCurve" id="{f2fb8f82-aca0-4450-93be-fee22c9aefce}">
 		<relationship name="parameter">
 			<destination>{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}</destination>

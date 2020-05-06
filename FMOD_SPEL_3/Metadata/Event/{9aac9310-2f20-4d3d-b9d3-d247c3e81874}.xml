@@ -57,7 +57,7 @@
 			<destination>{75d2ac41-3167-4273-83e0-bbff49c353b4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{eeb091f2-f8f2-4d8f-9b94-2d2666125f64}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b41f79ce-8b50-4b26-8ae8-4311359a3f90}" />
@@ -166,7 +166,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5ceb3515-0049-43dc-ad3b-4a3e6d94e7dd}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Cute_Insects</value>
@@ -266,7 +266,6 @@
 	<object class="MixerBusEffectChain" id="{fb4d8d92-83c8-437b-9900-b9d19ad9b20d}">
 		<relationship name="effects">
 			<destination>{033f570f-4f7c-40c8-9f0c-bb01a49d1875}</destination>
-			<destination>{664ce937-f7ad-444e-a885-ebe2fecfd526}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d9f86048-93f5-4db9-a9f6-a25c313bc205}">
@@ -376,17 +375,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{033f570f-4f7c-40c8-9f0c-bb01a49d1875}" />
-	<object class="MixerSend" id="{664ce937-f7ad-444e-a885-ebe2fecfd526}">
-		<property name="level">
-			<value>-18</value>
-		</property>
-		<property name="inputFormat">
-			<value>5</value>
-		</property>
-		<relationship name="mixerReturn">
-			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
-		</relationship>
-	</object>
 	<object class="RandomizerModulator" id="{803e6019-cce0-4bf9-8b8b-c512e76738c0}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>surroundPanDirection</value>

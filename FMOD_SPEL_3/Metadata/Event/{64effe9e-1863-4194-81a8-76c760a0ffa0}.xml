@@ -5,7 +5,7 @@
 			<value>Cave_amb</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{29f50b21-21b5-440d-9900-fa3ef36c9e81}</destination>
@@ -60,7 +60,7 @@
 			<destination>{7fc69fd6-60b7-42df-ac3f-c7adce396a72}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{9d5698ad-7927-40a0-ab3d-11bae9aa9341}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ed45540e-8503-497b-ad27-dd95495707a0}" />
@@ -348,7 +348,6 @@
 	<object class="MixerBusEffectChain" id="{a3ee219a-7be4-4eec-9086-9991d039fb20}">
 		<relationship name="effects">
 			<destination>{a17d7dee-f36b-4b98-a390-b8fae2036d90}</destination>
-			<destination>{6d98276d-6993-40e8-83ac-ab43978ce96c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{65af20e4-cee1-4015-a8c5-4e0caf970b24}">
@@ -482,17 +481,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a17d7dee-f36b-4b98-a390-b8fae2036d90}" />
-	<object class="SpatialiserEffect" id="{6d98276d-6993-40e8-83ac-ab43978ce96c}">
-		<property name="distanceRolloffType">
-			<value>3</value>
-		</property>
-		<property name="soundSize">
-			<value>7.5</value>
-		</property>
-		<property name="minimumExtent">
-			<value>252</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{6edc8c23-7936-4d08-866b-5fa74e40d13d}">
 		<property name="position">
 			<value>0</value>

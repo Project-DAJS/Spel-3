@@ -58,7 +58,7 @@
 			<destination>{ebec0078-5315-4bc1-91d4-de5b749f5b97}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{cfa634fb-81a4-4e27-a013-98f0c2fec1f4}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1f648a3f-1dab-4289-9d81-2d7d35590e4e}" />
@@ -226,7 +226,6 @@
 		<property name="length">
 			<value>20</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{b8da1399-5fcf-42a5-b281-e9f00e623eb8}</destination>
 		</relationship>
@@ -241,7 +240,6 @@
 		<relationship name="effects">
 			<destination>{f1e30479-5c39-48ab-9394-82b8e6955ac6}</destination>
 			<destination>{cd1cee20-ce2b-45ee-b621-cce02745525f}</destination>
-			<destination>{55b618b3-84c5-4221-99dc-e68bac53d81b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8c090140-27a5-43d8-b0d7-58b7cf412fa8}" />
@@ -333,20 +331,6 @@
 	</object>
 	<object class="MixerBusFader" id="{f1e30479-5c39-48ab-9394-82b8e6955ac6}" />
 	<object class="SpatialiserEffect" id="{cd1cee20-ce2b-45ee-b621-cce02745525f}" />
-	<object class="MixerSend" id="{55b618b3-84c5-4221-99dc-e68bac53d81b}">
-		<property name="level">
-			<value>-24.5</value>
-		</property>
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="modulators">
-			<destination>{66ac3bf1-2420-4fcf-aa41-41595b7dcbbd}</destination>
-		</relationship>
-		<relationship name="mixerReturn">
-			<destination>{ec6e736b-b59b-4e7f-9a3e-01d82b738856}</destination>
-		</relationship>
-	</object>
 	<object class="AutomationPoint" id="{445e1363-6b37-4b78-a883-45c92ef8aba0}">
 		<property name="position">
 			<value>0</value>
@@ -428,23 +412,6 @@
 		<relationship name="mixerReturn">
 			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
 		</relationship>
-	</object>
-	<object class="LFOModulator" id="{66ac3bf1-2420-4fcf-aa41-41595b7dcbbd}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>level</value>
-		</property>
-		<property name="shape">
-			<value>6</value>
-		</property>
-		<property name="isTempoSync">
-			<value>true</value>
-		</property>
-		<property name="depth">
-			<value>4</value>
-		</property>
-		<property name="direction">
-			<value>-100</value>
-		</property>
 	</object>
 	<object class="SingleSound" id="{9462b6c7-ae41-4a0c-b150-a2f8cd77f7b6}">
 		<relationship name="audioFile">

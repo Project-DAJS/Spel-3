@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{c4c786e6-eb2e-4143-81dd-c92e699d24f3}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>Mittens_Raygun</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6cd06411-7413-4125-8bc0-21f3f0fdfd5a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7f7abcee-744c-4096-9ddd-86e0b26fff53}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0016d93a-dc1e-43c1-99c3-6065945bbd36}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6cd06411-7413-4125-8bc0-21f3f0fdfd5a}">
+		<relationship name="effects">
+			<destination>{bc895891-cf0e-46ae-998e-51d85f2e995e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7f7abcee-744c-4096-9ddd-86e0b26fff53}" />
+	<object class="MixerBusFader" id="{bc895891-cf0e-46ae-998e-51d85f2e995e}" />
+</objects>

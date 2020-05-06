@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{f36de539-44d9-4222-9744-d497dc3e1d29}">
+		<property name="name">
+			<value>Mountain_Level_AmbienceFloat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{32a6f541-97a9-4b8c-96ca-4df83e25e588}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{32a6f541-97a9-4b8c-96ca-4df83e25e588}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

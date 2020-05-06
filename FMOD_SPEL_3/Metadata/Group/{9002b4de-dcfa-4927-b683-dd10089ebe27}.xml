@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{9002b4de-dcfa-4927-b683-dd10089ebe27}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>NPC_Spider</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c846a42e-444f-4fe3-8b9c-4954324f37e7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{83e36171-d0ef-43e0-ab82-de74d0bf73aa}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0016d93a-dc1e-43c1-99c3-6065945bbd36}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c846a42e-444f-4fe3-8b9c-4954324f37e7}">
+		<relationship name="effects">
+			<destination>{82277dd5-6e4e-4c44-b17c-4ecfe9eaef19}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{83e36171-d0ef-43e0-ab82-de74d0bf73aa}" />
+	<object class="MixerBusFader" id="{82277dd5-6e4e-4c44-b17c-4ecfe9eaef19}" />
+</objects>
