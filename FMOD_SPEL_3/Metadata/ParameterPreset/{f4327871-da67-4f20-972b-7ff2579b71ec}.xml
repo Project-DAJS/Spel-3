@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{f4327871-da67-4f20-972b-7ff2579b71ec}">
+		<property name="name">
+			<value>Enemy_Distance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}">
+		<property name="maximum">
+			<value>25</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

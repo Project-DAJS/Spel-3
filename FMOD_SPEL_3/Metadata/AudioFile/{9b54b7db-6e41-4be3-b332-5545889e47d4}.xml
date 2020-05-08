@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{ffbce668-85cd-422a-80bf-7e7f22a76c66}">
+	<object class="AudioFile" id="{9b54b7db-6e41-4be3-b332-5545889e47d4}">
 		<property name="assetPath">
-			<value>Ambience/ScatterSounds/Firefly_Buzz_1.wav</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Attack/Spider_Attack_Schreech_10.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>4</value>
+			<value>0.43265306122448982</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

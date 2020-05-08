@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{272d3664-331f-449c-a5d7-36f3a68083f5}">
+	<object class="AudioFile" id="{2b4517c4-1ce1-4c79-a3d8-2c56f195dd70}">
 		<property name="assetPath">
-			<value>Ambience/ScatterSounds/Firefly_Wings_2.wav</value>
+			<value>NPC_EFFECTS/Spiders/Spider_Detect_Player_2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>2.1249886621315195</value>
+			<value>1.2693197278911565</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
