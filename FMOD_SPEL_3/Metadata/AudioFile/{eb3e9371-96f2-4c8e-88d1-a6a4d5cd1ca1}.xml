@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{23c19acb-62fc-4899-98e1-090725dd32ac}">
+	<object class="AudioFile" id="{eb3e9371-96f2-4c8e-88d1-a6a4d5cd1ca1}">
 		<property name="assetPath">
-			<value>Character SFX/fotsteg/footstep3.wav</value>
+			<value>Character SFX/MEOWS/lovis4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.40535147392290249</value>
+			<value>1.1733333333333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
