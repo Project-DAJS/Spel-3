@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Bank" id="{975ab67b-0867-483f-b49f-f7f7c97df39c}">
+		<property name="name">
+			<value>Mittens_Distractions</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0dbd6e07-7d85-40af-a87d-4839c31427b2}</destination>
+		</relationship>
+	</object>
+</objects>

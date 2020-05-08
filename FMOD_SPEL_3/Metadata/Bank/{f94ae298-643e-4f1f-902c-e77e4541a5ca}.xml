@@ -5,7 +5,7 @@
 			<value>NPC_Spider</value>
 		</property>
 		<relationship name="folder">
-			<destination>{88f1e286-69eb-410d-97b9-00419f7320a3}</destination>
+			<destination>{fea26f70-65b3-4bc9-9afd-72133fc637fa}</destination>
 		</relationship>
 	</object>
 </objects>

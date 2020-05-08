@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{a4524438-54cb-4b65-97fc-f1a0add0e570}">
 		<property name="name">
-			<value>plocka upp skeppsdel 3</value>
+			<value>Spaceship_Part_3</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5bf3e6d0-cdca-43c0-a681-1f1a83e612e8}</destination>
+			<destination>{6213e8d0-08e0-482a-bf88-673761fb69ef}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5efaba1b-3772-4660-a430-8649d2910fba}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e69c0201-aac8-4ac2-be6f-bb1109665ae1}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{05ef619a-8c2a-4ae7-98e1-ee90c2423114}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{5efaba1b-3772-4660-a430-8649d2910fba}">

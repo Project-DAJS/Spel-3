@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{71f8e5b9-d32a-4de6-ac93-9d7132a5f3f4}">
 		<property name="name">
-			<value>Robotmouse (boss)</value>
+			<value>Robot_Mice_Boss_Drive</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5bf3e6d0-cdca-43c0-a681-1f1a83e612e8}</destination>
+			<destination>{6ef5d58a-40de-4841-a409-d2315af39042}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{15d7fdc4-f60b-492d-8008-56ce7cab798f}</destination>
@@ -36,6 +36,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{12edfa25-7f69-4ab4-b93e-85499ae17281}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{da680d5c-b5e0-43a0-8861-a621f24e1028}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{15d7fdc4-f60b-492d-8008-56ce7cab798f}">
@@ -180,7 +183,6 @@
 		<property name="length">
 			<value>4.9333333333333336</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{3c97f3d0-9483-41fd-94d9-efcd16a784f7}</destination>
 		</relationship>

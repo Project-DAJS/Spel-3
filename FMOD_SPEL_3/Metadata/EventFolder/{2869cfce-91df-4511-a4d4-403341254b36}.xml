@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{2869cfce-91df-4511-a4d4-403341254b36}">
+		<property name="name">
+			<value>Mittens_Distractions</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7c454a32-c58c-4dae-8668-89b7c66cbb8d}</destination>
+		</relationship>
+	</object>
+</objects>

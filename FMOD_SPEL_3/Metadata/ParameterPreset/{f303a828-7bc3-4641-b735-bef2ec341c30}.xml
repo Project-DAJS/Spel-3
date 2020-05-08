@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{f303a828-7bc3-4641-b735-bef2ec341c30}">
 		<property name="name">
-			<value>Damage_Type_Taken</value>
+			<value>Spider_DamageType_Taken</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>

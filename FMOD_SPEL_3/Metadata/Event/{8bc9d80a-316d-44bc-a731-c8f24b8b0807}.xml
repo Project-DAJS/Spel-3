@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{8bc9d80a-316d-44bc-a731-c8f24b8b0807}">
 		<property name="name">
-			<value>Robotmouse (Small)</value>
+			<value>Robot_Mice_Drive</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5bf3e6d0-cdca-43c0-a681-1f1a83e612e8}</destination>
+			<destination>{01dd5798-5b07-4b36-9e00-f018108c0a3f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{3f796c2e-c492-4c62-b00b-4b5d21542af8}</destination>
@@ -36,6 +36,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{b02f0078-92c7-442b-9d86-6c89b4045146}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{da680d5c-b5e0-43a0-8861-a621f24e1028}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{3f796c2e-c492-4c62-b00b-4b5d21542af8}">

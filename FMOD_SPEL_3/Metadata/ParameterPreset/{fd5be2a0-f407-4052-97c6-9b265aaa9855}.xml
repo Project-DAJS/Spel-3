@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{fd5be2a0-f407-4052-97c6-9b265aaa9855}">
 		<property name="name">
-			<value>end</value>
+			<value>End_RobotMice_Drive</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>

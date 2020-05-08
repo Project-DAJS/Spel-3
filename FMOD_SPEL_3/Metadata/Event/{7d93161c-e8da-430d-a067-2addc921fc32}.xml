@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{7d93161c-e8da-430d-a067-2addc921fc32}">
 		<property name="name">
-			<value>portal appear</value>
+			<value>Portal_Appear</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5bf3e6d0-cdca-43c0-a681-1f1a83e612e8}</destination>
+			<destination>{485f9355-b085-4f1d-ac30-1b096ba82825}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{30706152-2f65-49f7-b4ae-6ee11350d578}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{965a222b-32df-4cb0-a838-1458d3db2c88}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{67850dcc-39b1-4247-8e2d-434abf82ccf4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{30706152-2f65-49f7-b4ae-6ee11350d578}">

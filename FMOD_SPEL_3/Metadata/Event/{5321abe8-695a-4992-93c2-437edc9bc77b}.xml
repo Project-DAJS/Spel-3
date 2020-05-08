@@ -39,7 +39,6 @@ PLaye Distance  = </value>
 			<destination>{2f94b944-fe65-46b9-a091-ac0eb8c93531}</destination>
 		</relationship>
 		<relationship name="parameters">
-			<destination>{ed31af94-f2b7-4997-8f98-d153df28c25e}</destination>
 			<destination>{56cb6ef2-0a24-4642-942f-4df6a4f86c95}</destination>
 		</relationship>
 		<relationship name="banks">
@@ -124,17 +123,15 @@ PLaye Distance  = </value>
 			<destination>{48366808-5bbd-4357-9931-f7e1874516a6}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterProxy" id="{ed31af94-f2b7-4997-8f98-d153df28c25e}">
-		<relationship name="preset">
-			<destination>{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterProxy" id="{56cb6ef2-0a24-4642-942f-4df6a4f86c95}">
 		<relationship name="preset">
 			<destination>{e5f16990-4fcd-40ac-a055-33b64fa2eee8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{913d746e-47b1-479f-bb27-f70c6e600285}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6d94cb82-7da9-4cba-9861-81323051df59}</destination>
 		</relationship>
@@ -175,7 +172,7 @@ PLaye Distance  = </value>
 	</object>
 	<object class="EventMixerGroup" id="{e03fd2bb-2273-44f6-bec9-d8aade09926e}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-28</value>
 		</property>
 		<property name="name">
 			<value>BOING_Ver_1</value>
@@ -348,9 +345,6 @@ PLaye Distance  = </value>
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{12ecedce-7ff2-48d1-b359-6387e1af7cb1}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{8adce2ac-d0af-416e-9a9b-456e8c73037a}">
 		<relationship name="effects">
@@ -384,9 +378,6 @@ PLaye Distance  = </value>
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{e9159be5-6699-4643-b675-e4da6905aac4}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{07f96830-a9fe-43e8-9827-116704445b73}">
 		<relationship name="effects">
@@ -463,15 +454,6 @@ PLaye Distance  = </value>
 	</object>
 	<object class="MixerBusPanner" id="{60d6fffc-9c9f-4925-98e8-196e9393d0e8}" />
 	<object class="MixerBusFader" id="{c5dd0842-5124-4532-91c2-ea48b650e3e8}" />
-	<object class="AutomationCurve" id="{12ecedce-7ff2-48d1-b359-6387e1af7cb1}">
-		<relationship name="parameter">
-			<destination>{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{18b4126f-49c8-4479-b5db-014cf8fd0c20}</destination>
-			<destination>{b3e5d172-035c-47f4-a357-813cb0738740}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{18742295-0f6b-4814-ad8d-09a0dfe9ebef}" />
 	<object class="ThreeEQEffect" id="{d60e5acd-5b76-41cc-98a1-69846cfef618}">
 		<property name="lowGain">
@@ -495,15 +477,6 @@ PLaye Distance  = </value>
 			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{e9159be5-6699-4643-b675-e4da6905aac4}">
-		<relationship name="parameter">
-			<destination>{bbab05b5-6f3b-4b65-b8c7-05f33d0eb52c}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{89e44870-cfe8-44cb-aea3-182da1755ca0}</destination>
-			<destination>{df012386-c679-4f67-883d-46d74b7a2259}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{2023f2f2-79c8-4d6c-8a7b-2c895317135d}" />
 	<object class="AutomationCurve" id="{c14cee35-9f46-4d1c-a5d8-727fa36e49ed}">
 		<relationship name="parameter">
@@ -525,44 +498,12 @@ PLaye Distance  = </value>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0b522aa7-54a8-4b82-8ace-1e1b1953ec65}" />
-	<object class="AutomationPoint" id="{18b4126f-49c8-4479-b5db-014cf8fd0c20}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-27</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{b3e5d172-035c-47f4-a357-813cb0738740}">
-		<property name="position">
-			<value>18.056807935076648</value>
-		</property>
-		<property name="value">
-			<value>-10</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{89e44870-cfe8-44cb-aea3-182da1755ca0}">
-		<property name="position">
-			<value>18.079350766456269</value>
-		</property>
-		<property name="value">
-			<value>-11</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{df012386-c679-4f67-883d-46d74b7a2259}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-27</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{6285bb9e-a7bd-4e91-83e0-cf991d900704}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-29</value>
+			<value>-7.44999886</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e1b4a862-eb91-471f-ae17-2952c75d6f52}">
@@ -570,7 +511,7 @@ PLaye Distance  = </value>
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-24.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e9900be8-b132-4bae-9065-ac726494638b}">
@@ -586,7 +527,7 @@ PLaye Distance  = </value>
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-29</value>
+			<value>-22</value>
 		</property>
 	</object>
 </objects>

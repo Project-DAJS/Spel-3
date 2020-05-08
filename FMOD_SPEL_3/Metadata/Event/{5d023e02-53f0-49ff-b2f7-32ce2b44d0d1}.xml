@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{5d023e02-53f0-49ff-b2f7-32ce2b44d0d1}">
 		<property name="name">
-			<value>boss alert</value>
+			<value>Spider_Boss_Alert</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5bf3e6d0-cdca-43c0-a681-1f1a83e612e8}</destination>
+			<destination>{7f6caf1b-1b28-4824-b5af-654586945731}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{d68b312b-f156-472e-b918-c5180c74de54}</destination>
@@ -32,6 +32,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{be284082-6d48-400f-b197-3bd5893afe38}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{f94ae298-643e-4f1f-902c-e77e4541a5ca}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{d68b312b-f156-472e-b918-c5180c74de54}">
