@@ -121,10 +121,13 @@
 			<value>7</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>9500</value>
+			<value>1500</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>16000</value>
+			<value>5850</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>3.79999995</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{9b1015e1-65fa-44cb-a2c4-85c749680474}</destination>
@@ -186,7 +189,8 @@
 	<object class="MixerBusEffectChain" id="{859037d3-e6c2-467c-a733-af4198115a02}">
 		<relationship name="effects">
 			<destination>{c9a68fca-47d0-4207-99c4-e66202a72c58}</destination>
-			<destination>{b785259a-42ed-462a-919a-16fb5f972b46}</destination>
+			<destination>{3f2282f8-72c9-4c95-b06a-97dd55c9df43}</destination>
+			<destination>{ad9b536d-91a3-40ab-a21b-fa7af0f71fac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{20f13b21-1409-4467-93b3-c492da43f140}" />
@@ -251,7 +255,19 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c9a68fca-47d0-4207-99c4-e66202a72c58}" />
-	<object class="SpatialiserEffect" id="{b785259a-42ed-462a-919a-16fb5f972b46}" />
+	<object class="SpatialiserEffect" id="{3f2282f8-72c9-4c95-b06a-97dd55c9df43}">
+		<property name="minimumDistance">
+			<value>4.99999952</value>
+		</property>
+	</object>
+	<object class="ProxyEffect" id="{ad9b536d-91a3-40ab-a21b-fa7af0f71fac}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{e136b312-a756-415a-af58-d549328dbb60}">
 		<relationship name="audioFile">
 			<destination>{f443ac63-36b0-45af-9299-7ab5eb31cc85}</destination>

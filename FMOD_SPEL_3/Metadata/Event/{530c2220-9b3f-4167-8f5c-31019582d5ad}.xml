@@ -227,7 +227,7 @@
 	</object>
 	<object class="SingleSound" id="{b1af9824-16b6-4940-afbb-b1657b7adc4e}">
 		<relationship name="audioFile">
-			<destination>{b8ac6d81-f51a-4e11-8424-4b6ef6de49f3}</destination>
+			<destination>{d11dc7b4-0a1a-4516-bb21-93d88b5121e8}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e58f8c51-cd58-4695-b5aa-887ab0c74bb6}">

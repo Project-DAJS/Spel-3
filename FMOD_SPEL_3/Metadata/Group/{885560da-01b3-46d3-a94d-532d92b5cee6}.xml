@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{885560da-01b3-46d3-a94d-532d92b5cee6}">
+		<property name="name">
+			<value>NPC_RobotMouse</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3942f380-6414-4f28-af3a-97ba7cc86699}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{dddcef0f-cac2-4192-9704-20bd5afb88b9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0016d93a-dc1e-43c1-99c3-6065945bbd36}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3942f380-6414-4f28-af3a-97ba7cc86699}">
+		<relationship name="effects">
+			<destination>{c6003902-4d27-49c1-872f-5aeb867fd6be}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{dddcef0f-cac2-4192-9704-20bd5afb88b9}" />
+	<object class="MixerBusFader" id="{c6003902-4d27-49c1-872f-5aeb867fd6be}" />
+</objects>

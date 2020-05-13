@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="EncodableAsset" id="{78879f19-9eb0-4ff7-b25a-c5b5912c4e6d}">
+	<object class="EncodableAsset" id="{9e53ac4c-a2ab-4b6c-824c-fe77b3caab90}">
 		<property name="assetPath">
-			<value>sfx/</value>
+			<value>Character SFX/Mittens_Foley/footsteps/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

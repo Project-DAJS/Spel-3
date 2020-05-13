@@ -118,10 +118,10 @@
 			<value>0</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>16000</value>
+			<value>6000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>83000</value>
+			<value>21500</value>
 		</property>
 		<relationship name="sound">
 			<destination>{898c3e79-26c7-40db-9224-7813cc20399d}</destination>
@@ -180,7 +180,7 @@
 	<object class="MixerBusEffectChain" id="{d97f0d4a-72e6-4713-bc74-36df676156e0}">
 		<relationship name="effects">
 			<destination>{5fb648aa-c939-4ed1-9f16-0d16d2b93237}</destination>
-			<destination>{cefeaa04-1c49-45ef-bdeb-1e6a8c565661}</destination>
+			<destination>{514cc42a-b429-4270-96d3-fa4a1d06c2ec}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c479aa3e-0ed2-499c-9652-e399439eeb7d}" />
@@ -233,7 +233,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{5fb648aa-c939-4ed1-9f16-0d16d2b93237}" />
-	<object class="SpatialiserEffect" id="{cefeaa04-1c49-45ef-bdeb-1e6a8c565661}" />
+	<object class="SpatialiserEffect" id="{514cc42a-b429-4270-96d3-fa4a1d06c2ec}">
+		<property name="minimumDistance">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{32d44f3d-a0d0-48fb-9aa4-191af810501e}">
 		<relationship name="audioFile">
 			<destination>{a3acfb04-b010-4d25-b2db-e3b43642997b}</destination>
