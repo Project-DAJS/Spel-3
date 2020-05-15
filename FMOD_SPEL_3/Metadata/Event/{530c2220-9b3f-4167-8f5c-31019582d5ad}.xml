@@ -145,6 +145,12 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{d3dcdc3e-5223-45b2-aed0-bb7b7a186f90}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>30</value>
+		</property>
 		<property name="start">
 			<value>0.040000000000000001</value>
 		</property>
