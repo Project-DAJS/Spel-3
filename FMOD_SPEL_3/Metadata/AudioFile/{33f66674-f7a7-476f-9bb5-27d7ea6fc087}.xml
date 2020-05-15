@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{b8ac6d81-f51a-4e11-8424-4b6ef6de49f3}">
+	<object class="AudioFile" id="{33f66674-f7a7-476f-9bb5-27d7ea6fc087}">
 		<property name="assetPath">
-			<value>Character SFX/MEOWS/greger3.wav</value>
+			<value>Character SFX/Mittens_Foley/dräktljud/spacesuit8.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>1.1306802721088436</value>
+			<value>0.37868480725623582</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

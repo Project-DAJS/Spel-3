@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="EncodableAsset" id="{085092aa-7939-4705-be4a-c727041e7a5d}">
+	<object class="EncodableAsset" id="{448145e9-5d41-4d30-aa41-96b5c0194d92}">
 		<property name="assetPath">
-			<value>Character SFX/MEOWS/</value>
+			<value>Character SFX/Mittens_Foley/dräktljud/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

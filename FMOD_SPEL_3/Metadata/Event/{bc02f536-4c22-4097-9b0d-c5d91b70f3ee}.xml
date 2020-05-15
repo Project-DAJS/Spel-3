@@ -317,6 +317,7 @@
 		<relationship name="effects">
 			<destination>{00c6b9db-9b63-4d99-beab-f393fd325adc}</destination>
 			<destination>{7e0e371a-d800-438b-ba67-d1810903e3af}</destination>
+			<destination>{c8879c43-5372-47f4-8232-5138122b1285}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7724cf3e-901e-48ff-8cbe-2c67f944aa91}" />
@@ -475,6 +476,14 @@
 		<property name="lowGain">
 			<value>-4.5</value>
 		</property>
+	</object>
+	<object class="ProxyEffect" id="{c8879c43-5372-47f4-8232-5138122b1285}">
+		<property name="inputFormat">
+			<value>5</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{60dc764a-705d-43ce-8bd7-115634455984}">
 		<property name="position">

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{1a8c4b10-15d8-4607-b2b1-93b52842945c}">
+	<object class="AudioFile" id="{78b40c6b-0063-4e1d-bc49-424eab5d9b42}">
 		<property name="assetPath">
-			<value>Character SFX/MEOWS/greger4.wav</value>
+			<value>Character SFX/Mittens_Foley/footsteps/footstep4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>1.6320181405895691</value>
+			<value>0.41600907029478457</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

@@ -54,7 +54,7 @@
 			<destination>{61050e72-9c21-4ad0-b445-a6bc2ebc60f0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{bb87973b-8ddf-4b2b-8a0f-2ff35cf5b263}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4ff3664e-50f2-4daa-b780-66e0cdc26580}" />
@@ -106,7 +106,7 @@
 			<destination>{85cd72b8-75dd-46ef-83b5-4aef27d851f6}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{4495c8e0-c925-4b27-893b-e7ed6ab4fb1b}</destination>
+			<destination>{81c7a00b-d1a2-45ac-92de-d2cabfd8eaf4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0ba8c46b-7109-40d9-a7d9-033566313aec}">

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}">
+		<property name="name">
+			<value>Character_Mittens</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5d0d02c1-efe0-4b0e-803d-ce0def03e6fa}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{36ea341b-cc2f-4c7a-be56-f888e099dafc}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0016d93a-dc1e-43c1-99c3-6065945bbd36}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5d0d02c1-efe0-4b0e-803d-ce0def03e6fa}">
+		<relationship name="effects">
+			<destination>{a5a7d583-d08e-406f-be6c-c3ecf4235157}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{36ea341b-cc2f-4c7a-be56-f888e099dafc}" />
+	<object class="MixerBusFader" id="{a5a7d583-d08e-406f-be6c-c3ecf4235157}" />
+</objects>

@@ -4,5 +4,8 @@
 		<property name="assetPath">
 			<value>Character SFX/New Folder/</value>
 		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
 	</object>
 </objects>

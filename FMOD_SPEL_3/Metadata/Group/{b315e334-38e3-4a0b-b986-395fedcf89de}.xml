@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{b315e334-38e3-4a0b-b986-395fedcf89de}">
+		<property name="name">
+			<value>Mittens_Foley</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e97e2126-1852-4eb3-ae26-a24a62395ccd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1006b68d-9388-4be3-995b-1117aa42a369}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e97e2126-1852-4eb3-ae26-a24a62395ccd}">
+		<relationship name="effects">
+			<destination>{2e3ff248-0d50-4a76-bed8-932b5aedba72}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1006b68d-9388-4be3-995b-1117aa42a369}" />
+	<object class="MixerBusFader" id="{2e3ff248-0d50-4a76-bed8-932b5aedba72}" />
+</objects>

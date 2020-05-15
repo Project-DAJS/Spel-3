@@ -28,7 +28,7 @@
 	<object class="ThreeEQEffect" id="{99c1ba1e-23bd-4875-8fd8-2ea09176e5b3}" />
 	<object class="MixerSend" id="{fc2cea10-e047-4dde-a9c3-e0eaefc68501}">
 		<property name="inputFormat">
-			<value>5</value>
+			<value>2</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{ec6e736b-b59b-4e7f-9a3e-01d82b738856}</destination>
