@@ -323,7 +323,7 @@
 			<value>7.79999971</value>
 		</property>
 		<property name="maximumDistance">
-			<value>32</value>
+			<value>34</value>
 		</property>
 	</object>
 	<object class="ProxyEffect" id="{b05f7eca-0839-4a31-8dd3-c620e56bae25}">
