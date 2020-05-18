@@ -119,9 +119,6 @@ PLaye Distance  = </value>
 			<destination>{16a45821-2f44-4257-bc35-2d3825965c2f}</destination>
 			<destination>{f8766a03-af79-45fe-8392-311a7495ad36}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{48366808-5bbd-4357-9931-f7e1874516a6}</destination>
-		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{56cb6ef2-0a24-4642-942f-4df6a4f86c95}">
 		<relationship name="preset">
@@ -293,20 +290,6 @@ PLaye Distance  = </value>
 		</relationship>
 		<relationship name="output">
 			<destination>{913d746e-47b1-479f-bb27-f70c6e600285}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{48366808-5bbd-4357-9931-f7e1874516a6}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>1</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{2f94b944-fe65-46b9-a091-ac0eb8c93531}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{105a3c09-f06a-4bff-8542-90e6514d8bea}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6d94cb82-7da9-4cba-9861-81323051df59}">
@@ -511,7 +494,7 @@ PLaye Distance  = </value>
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-7.44999886</value>
+			<value>-18.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e1b4a862-eb91-471f-ae17-2952c75d6f52}">
@@ -519,7 +502,7 @@ PLaye Distance  = </value>
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-24.5</value>
+			<value>-45.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4ba836c4-b9b2-41a2-9172-5f26d8515536}">
@@ -527,7 +510,7 @@ PLaye Distance  = </value>
 			<value>3</value>
 		</property>
 		<property name="value">
-			<value>-24.5</value>
+			<value>-45.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a81d6f1d-d3e1-4fb3-b635-bae08e3c3e9c}">
@@ -535,7 +518,7 @@ PLaye Distance  = </value>
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>-24.5</value>
+			<value>-45.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{521dcb0f-467c-4f39-9212-c64f744ffa38}">
@@ -543,7 +526,7 @@ PLaye Distance  = </value>
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-24.5</value>
+			<value>-45.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0d338603-00d9-4d72-b8e8-dd6e06d065cb}">
@@ -551,7 +534,7 @@ PLaye Distance  = </value>
 			<value>4</value>
 		</property>
 		<property name="value">
-			<value>-24.5</value>
+			<value>-45.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e9900be8-b132-4bae-9065-ac726494638b}">
