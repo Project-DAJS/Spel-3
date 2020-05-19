@@ -297,7 +297,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{98bf9d43-40f0-4141-b4ca-ec0d7c0f65de}" />
-	<object class="SpatialiserEffect" id="{4178d42c-ee94-4945-8c56-ed528d7953ea}" />
+	<object class="SpatialiserEffect" id="{4178d42c-ee94-4945-8c56-ed528d7953ea}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>9</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{fdf0e437-1023-4b63-8bc1-69c16b3c7b1a}">
 		<property name="level">
 			<value>-27.5</value>

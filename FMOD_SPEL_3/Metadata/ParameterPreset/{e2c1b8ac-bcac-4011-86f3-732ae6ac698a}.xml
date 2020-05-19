@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{e2c1b8ac-bcac-4011-86f3-732ae6ac698a}">
+		<property name="name">
+			<value>A_LPF</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{af8788f7-2ed1-4b7e-b085-e1463d4db40e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{af8788f7-2ed1-4b7e-b085-e1463d4db40e}">
+		<property name="maximum">
+			<value>22000</value>
+		</property>
+		<property name="initialValue">
+			<value>22000</value>
+		</property>
+	</object>
+</objects>
