@@ -114,7 +114,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4e8831f0-00f5-45c8-b8dc-c74ef90b615d}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Mice_beeps</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{905f902f-c178-40c5-ab60-eb5a05b8ab1a}</destination>
