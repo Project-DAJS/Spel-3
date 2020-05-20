@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{449b9a53-caae-49a6-ba93-63cb62d8e508}">
 		<property name="name">
-			<value>Collect_Currency_HoverLoop</value>
+			<value>Item_Hoverloop</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{40ed98e6-134a-472b-88d9-38804281e615}</destination>
+			<destination>{933d70d5-c520-4a25-b334-755f6c3dc4db}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{de7a441d-e955-446e-a9f4-451c7ae06e86}</destination>
