@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{949b00f2-54a6-40a1-ba2a-d2849216dcf0}">
 		<property name="name">
-			<value>Portal_Outside_Noise_1</value>
+			<value>Portal_Outside_Noise_2</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

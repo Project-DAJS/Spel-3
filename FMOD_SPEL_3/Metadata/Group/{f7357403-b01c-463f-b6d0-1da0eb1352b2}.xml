@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{f7357403-b01c-463f-b6d0-1da0eb1352b2}">
+		<property name="name">
+			<value>Mittens_CollectItems</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f33dc0fb-d4dd-40fd-b688-a5a529454400}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a45b5023-ec9e-4b9f-86a2-35796a1f7521}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f33dc0fb-d4dd-40fd-b688-a5a529454400}">
+		<relationship name="effects">
+			<destination>{dbce2957-6d43-4558-b883-c13558de04dd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a45b5023-ec9e-4b9f-86a2-35796a1f7521}" />
+	<object class="MixerBusFader" id="{dbce2957-6d43-4558-b883-c13558de04dd}" />
+</objects>

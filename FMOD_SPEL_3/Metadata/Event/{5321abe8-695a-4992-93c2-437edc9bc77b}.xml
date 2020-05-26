@@ -9,7 +9,7 @@
 PLaye Distance  = </value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3dba54a1-64a1-4f93-9e93-b9fd410fee76}</destination>
@@ -74,6 +74,7 @@ PLaye Distance  = </value>
 		</relationship>
 		<relationship name="modules">
 			<destination>{bf524076-b0b3-4cfb-9362-3f8345f44913}</destination>
+			<destination>{5e766548-b5cb-496e-a503-036b1b6fa1cf}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e03fd2bb-2273-44f6-bec9-d8aade09926e}</destination>
@@ -85,6 +86,7 @@ PLaye Distance  = </value>
 		</relationship>
 		<relationship name="modules">
 			<destination>{17afb6e0-0cae-4f1c-87cc-1077ad0d01f8}</destination>
+			<destination>{eebc4d0a-aed3-420f-8577-bb649a7933ba}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{11ee3586-9f48-4b85-8e4b-1ddfe599086c}</destination>
@@ -96,6 +98,7 @@ PLaye Distance  = </value>
 		</relationship>
 		<relationship name="modules">
 			<destination>{16a45821-2f44-4257-bc35-2d3825965c2f}</destination>
+			<destination>{98d38e1b-2a1d-4a93-a03c-9e2c4041c42b}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{30f0807c-ba3d-49c3-93eb-2b71236886e0}</destination>
@@ -107,6 +110,7 @@ PLaye Distance  = </value>
 		</relationship>
 		<relationship name="modules">
 			<destination>{f8766a03-af79-45fe-8392-311a7495ad36}</destination>
+			<destination>{13141813-1496-4275-ae30-82755ef77b85}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d19767b9-795d-4a2f-a769-d42b1d5d504f}</destination>
@@ -118,6 +122,10 @@ PLaye Distance  = </value>
 			<destination>{17afb6e0-0cae-4f1c-87cc-1077ad0d01f8}</destination>
 			<destination>{16a45821-2f44-4257-bc35-2d3825965c2f}</destination>
 			<destination>{f8766a03-af79-45fe-8392-311a7495ad36}</destination>
+			<destination>{5e766548-b5cb-496e-a503-036b1b6fa1cf}</destination>
+			<destination>{eebc4d0a-aed3-420f-8577-bb649a7933ba}</destination>
+			<destination>{98d38e1b-2a1d-4a93-a03c-9e2c4041c42b}</destination>
+			<destination>{13141813-1496-4275-ae30-82755ef77b85}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{56cb6ef2-0a24-4642-942f-4df6a4f86c95}">
@@ -167,6 +175,29 @@ PLaye Distance  = </value>
 			<destination>{4cf835d6-7d28-4bcf-abef-802c6815dc48}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{5e766548-b5cb-496e-a503-036b1b6fa1cf}">
+		<property name="start">
+			<value>0.55000000000000004</value>
+		</property>
+		<property name="length">
+			<value>0.34374149659863945</value>
+		</property>
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
+		<property name="pitch">
+			<value>-3.4000001</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{b3906a20-e6f8-4205-9872-1cc4180db3e9}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{267f09f4-7011-4e45-bd95-bd5547f530f3}</destination>
+			<destination>{c13ed336-bbf7-4044-8f87-15dbe3e6f5dd}</destination>
+			<destination>{aee2309c-6f62-43fe-89b0-e35247bb4dde}</destination>
+			<destination>{b68f7ab7-81ee-4fcc-8941-2f1151d1c4b6}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{e03fd2bb-2273-44f6-bec9-d8aade09926e}">
 		<property name="volume">
 			<value>-28</value>
@@ -203,9 +234,26 @@ PLaye Distance  = </value>
 			<destination>{311db4ca-0456-497b-b74b-ae36de501969}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{eebc4d0a-aed3-420f-8577-bb649a7933ba}">
+		<property name="start">
+			<value>0.55000000000000004</value>
+		</property>
+		<property name="length">
+			<value>0.34374149659863945</value>
+		</property>
+		<property name="pitch">
+			<value>-3.4000001</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{cb9232e4-0bb3-4e0e-a973-5f938f2840e1}</destination>
+			<destination>{f4907e9c-3b77-4abd-81ab-8e41c6fc532a}</destination>
+			<destination>{7dfc2b1e-a896-4673-96de-28419972b4c5}</destination>
+			<destination>{6eb7e925-2b2e-46c2-a566-969edba59d77}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{11ee3586-9f48-4b85-8e4b-1ddfe599086c}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>ArcadeBoing</value>
@@ -237,6 +285,23 @@ PLaye Distance  = </value>
 			<destination>{5399c42d-3bfb-4579-9424-547cd26e3ef6}</destination>
 			<destination>{06c000ce-5e54-46fb-ac4a-05f298fecece}</destination>
 			<destination>{3b4cb389-1783-4c6d-825a-ce0b98becbd9}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{98d38e1b-2a1d-4a93-a03c-9e2c4041c42b}">
+		<property name="start">
+			<value>0.55000000000000004</value>
+		</property>
+		<property name="length">
+			<value>0.35000000000000003</value>
+		</property>
+		<property name="pitch">
+			<value>-0.900000036</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{a8eb3f3a-7c55-4f6c-a360-50befda59230}</destination>
+			<destination>{2eda7466-c154-44f5-857e-6492b9ef2545}</destination>
+			<destination>{76517b8f-a23d-4f51-b626-5e2e5205f1b0}</destination>
+			<destination>{24966e4d-a4fc-4ec3-9087-f6a4fd1e898c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{30f0807c-ba3d-49c3-93eb-2b71236886e0}">
@@ -275,6 +340,23 @@ PLaye Distance  = </value>
 			<destination>{e44d2e8c-f76f-4b27-bd17-d3ede1e27fc3}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{13141813-1496-4275-ae30-82755ef77b85}">
+		<property name="start">
+			<value>0.55000000000000004</value>
+		</property>
+		<property name="length">
+			<value>0.35000000000000003</value>
+		</property>
+		<property name="pitch">
+			<value>-0.900000036</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{93ccc4c2-281b-4f28-b606-a4c6f65e8316}</destination>
+			<destination>{83ba9562-c670-407b-89f9-32144959aef7}</destination>
+			<destination>{f141246b-cbc1-4425-a032-f7ae2f76c716}</destination>
+			<destination>{aa0d69a0-174f-428a-b777-3d617354c77c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{d19767b9-795d-4a2f-a769-d42b1d5d504f}">
 		<property name="name">
 			<value>Gravel Material</value>
@@ -295,6 +377,7 @@ PLaye Distance  = </value>
 	<object class="MixerBusEffectChain" id="{6d94cb82-7da9-4cba-9861-81323051df59}">
 		<relationship name="effects">
 			<destination>{c5dd0842-5124-4532-91c2-ea48b650e3e8}</destination>
+			<destination>{ca05a485-f930-484f-b069-a649413d7a2b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ba3cfa26-0ba7-488c-a521-7e7656b44e39}" />
@@ -320,6 +403,31 @@ PLaye Distance  = </value>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{4cf835d6-7d28-4bcf-abef-802c6815dc48}">
+		<relationship name="audioFile">
+			<destination>{f6173961-f686-43da-9c47-d25526f2aa07}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{b3906a20-e6f8-4205-9872-1cc4180db3e9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{267f09f4-7011-4e45-bd95-bd5547f530f3}">
+		<relationship name="audioFile">
+			<destination>{d6fbdd80-312f-40f4-bbf3-0173851ab663}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c13ed336-bbf7-4044-8f87-15dbe3e6f5dd}">
+		<relationship name="audioFile">
+			<destination>{119ac579-8f0f-49a6-8ea4-1b03ec7dab69}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{aee2309c-6f62-43fe-89b0-e35247bb4dde}">
+		<relationship name="audioFile">
+			<destination>{81ea97f2-c63f-4079-88a7-5a085b7fb971}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{b68f7ab7-81ee-4fcc-8941-2f1151d1c4b6}">
 		<relationship name="audioFile">
 			<destination>{f6173961-f686-43da-9c47-d25526f2aa07}</destination>
 		</relationship>
@@ -357,6 +465,26 @@ PLaye Distance  = </value>
 			<destination>{a0a2251b-8ab9-43c3-9c5e-aabb171de7f9}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{cb9232e4-0bb3-4e0e-a973-5f938f2840e1}">
+		<relationship name="audioFile">
+			<destination>{2bcef366-1982-4ce3-8ab7-2c9b054e9b00}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f4907e9c-3b77-4abd-81ab-8e41c6fc532a}">
+		<relationship name="audioFile">
+			<destination>{0bf98158-1eee-4bb2-9b5a-57970be4780d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7dfc2b1e-a896-4673-96de-28419972b4c5}">
+		<relationship name="audioFile">
+			<destination>{c8393a0f-1291-4b98-8229-048f9e44f275}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{6eb7e925-2b2e-46c2-a566-969edba59d77}">
+		<relationship name="audioFile">
+			<destination>{a0a2251b-8ab9-43c3-9c5e-aabb171de7f9}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{62d44430-9482-45cd-abb2-71268ad9ad29}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -384,6 +512,26 @@ PLaye Distance  = </value>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3b4cb389-1783-4c6d-825a-ce0b98becbd9}">
+		<relationship name="audioFile">
+			<destination>{44aec29e-4441-41a8-8612-b14147315ea4}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a8eb3f3a-7c55-4f6c-a360-50befda59230}">
+		<relationship name="audioFile">
+			<destination>{0d6fd834-a0d6-4d77-948a-7daec54f7d47}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2eda7466-c154-44f5-857e-6492b9ef2545}">
+		<relationship name="audioFile">
+			<destination>{80061914-6951-447d-9fa1-56ca42269289}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{76517b8f-a23d-4f51-b626-5e2e5205f1b0}">
+		<relationship name="audioFile">
+			<destination>{05388a8b-5607-4bcf-b4da-28f8d6233e0f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{24966e4d-a4fc-4ec3-9087-f6a4fd1e898c}">
 		<relationship name="audioFile">
 			<destination>{44aec29e-4441-41a8-8612-b14147315ea4}</destination>
 		</relationship>
@@ -422,6 +570,26 @@ PLaye Distance  = </value>
 			<destination>{03866b45-b202-47b0-8594-a42526421653}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{93ccc4c2-281b-4f28-b606-a4c6f65e8316}">
+		<relationship name="audioFile">
+			<destination>{ef77a3aa-0a94-4ea9-bfac-0091e1a6b0d3}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{83ba9562-c670-407b-89f9-32144959aef7}">
+		<relationship name="audioFile">
+			<destination>{353652be-011f-42bd-a06c-2c7c1b2d9851}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f141246b-cbc1-4425-a032-f7ae2f76c716}">
+		<relationship name="audioFile">
+			<destination>{2fc84b75-40fa-4dc5-9670-5b63a0d05df3}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{aa0d69a0-174f-428a-b777-3d617354c77c}">
+		<relationship name="audioFile">
+			<destination>{03866b45-b202-47b0-8594-a42526421653}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{fccb020d-6730-45c2-b6db-74337f252dfb}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -437,6 +605,7 @@ PLaye Distance  = </value>
 	</object>
 	<object class="MixerBusPanner" id="{60d6fffc-9c9f-4925-98e8-196e9393d0e8}" />
 	<object class="MixerBusFader" id="{c5dd0842-5124-4532-91c2-ea48b650e3e8}" />
+	<object class="SpatialiserEffect" id="{ca05a485-f930-484f-b069-a649413d7a2b}" />
 	<object class="MixerBusFader" id="{18742295-0f6b-4814-ad8d-09a0dfe9ebef}" />
 	<object class="ThreeEQEffect" id="{d60e5acd-5b76-41cc-98a1-69846cfef618}">
 		<property name="lowGain">

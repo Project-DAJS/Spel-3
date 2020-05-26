@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{885560da-01b3-46d3-a94d-532d92b5cee6}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>NPC_RobotMouse</value>
 		</property>

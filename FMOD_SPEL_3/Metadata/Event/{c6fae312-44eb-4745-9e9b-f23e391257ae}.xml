@@ -115,6 +115,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{635a2336-6bec-4c53-a410-83823c105114}" />
 	<object class="MultiSound" id="{9e53fdc0-9bf7-4b97-a295-d225d7637b37}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>48</value>
+		</property>
 		<property name="length">
 			<value>0.75</value>
 		</property>
@@ -197,7 +203,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fee9f654-9e16-4619-8239-61f48d74de28}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-19.5</value>
 		</property>
 		<property name="name">
 			<value>Raygun  impact</value>

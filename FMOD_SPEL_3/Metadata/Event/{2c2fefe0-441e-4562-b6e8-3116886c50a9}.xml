@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{2c2fefe0-441e-4562-b6e8-3116886c50a9}">
 		<property name="name">
-			<value>Mittens_Jump</value>
+			<value>Mittens_Jump_PoweredUP</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -54,7 +54,7 @@
 			<destination>{9a215381-9bce-42df-8165-c4e10ee4297d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{b315e334-38e3-4a0b-b986-395fedcf89de}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9737f28a-ca82-4480-a3ac-bca82b29a159}" />

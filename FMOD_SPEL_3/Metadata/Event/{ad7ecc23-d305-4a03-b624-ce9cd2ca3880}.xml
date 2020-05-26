@@ -112,6 +112,9 @@
 		<property name="maximumTimeBetweenSounds">
 			<value>2500</value>
 		</property>
+		<property name="spawnRate">
+			<value>165</value>
+		</property>
 		<property name="pitchRandomization">
 			<value>4.20000029</value>
 		</property>
