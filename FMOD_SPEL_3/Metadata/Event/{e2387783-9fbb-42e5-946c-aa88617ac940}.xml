@@ -108,7 +108,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7145095c-e2ae-4b00-a6bc-2e0a0c9c479e}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-14</value>
 		</property>
 		<property name="name">
 			<value>PLACEHOLDER</value>
@@ -133,7 +133,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9608c105-fcbc-4c4c-a537-d29c476a40d9}">
 		<property name="volume">
-			<value>-17.5</value>
+			<value>-26</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -170,7 +170,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{344728c9-7136-4654-a3f0-360a76e7b59c}" />
 	<object class="MixerBusFader" id="{4f462ae5-fd73-4900-b498-ef71a6f630da}" />
-	<object class="SpatialiserEffect" id="{2434c9de-2c8e-4650-ab08-bca7338cc04b}" />
+	<object class="SpatialiserEffect" id="{2434c9de-2c8e-4650-ab08-bca7338cc04b}">
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f27f5b5a-cd88-4683-b623-a954a2de7bdd}" />
 	<object class="FlangerEffect" id="{c60d37ec-1f11-4f25-a0c4-430329938d00}">
 		<property name="rate">

@@ -53,7 +53,7 @@
 			<destination>{21063ee7-4fa0-4fee-b461-42753d48a497}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0b1eda70-066f-4a95-93a8-706cb209909d}</destination>
+			<destination>{629325b5-b043-40c2-bd0e-4f5e0861521a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e1d42276-dd38-44c9-bdb6-530af15aac8f}" />
@@ -126,10 +126,14 @@
 		<relationship name="effects">
 			<destination>{2ffc167b-85dc-4294-b19e-4a452e5f9fc1}</destination>
 			<destination>{52cccdce-e39e-4157-b7b9-fac6ab6b3cab}</destination>
-			<destination>{6560b9dc-a25f-4245-b54e-3293c47c6963}</destination>
+			<destination>{c0175270-11a8-4af1-b788-248f9dcdd4ba}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{efc9bab0-877c-4b2f-8091-92914fad5481}" />
+	<object class="MixerBusPanner" id="{efc9bab0-877c-4b2f-8091-92914fad5481}">
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c87c00c5-e637-4052-ae01-89946714fbb7}" />
 	<object class="RandomizerModulator" id="{11652697-b7d6-4d95-8c8b-8b8ea2437577}">
 		<property name="nameOfPropertyBeingModulated">
@@ -197,13 +201,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{b7450b30-8da3-4f9a-a1ae-792223fca04a}" />
 	<object class="MixerBusFader" id="{2ffc167b-85dc-4294-b19e-4a452e5f9fc1}" />
-	<object class="SpatialiserEffect" id="{52cccdce-e39e-4157-b7b9-fac6ab6b3cab}" />
-	<object class="ProxyEffect" id="{6560b9dc-a25f-4245-b54e-3293c47c6963}">
+	<object class="SpatialiserEffect" id="{52cccdce-e39e-4157-b7b9-fac6ab6b3cab}">
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
+	</object>
+	<object class="ProxyEffect" id="{c0175270-11a8-4af1-b788-248f9dcdd4ba}">
 		<property name="inputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="preset">
-			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+			<destination>{54a46d9e-ca53-435b-8519-0d8f0b7e66e5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{11f5a320-7a07-40fc-81cc-75cc59d83b9e}" />

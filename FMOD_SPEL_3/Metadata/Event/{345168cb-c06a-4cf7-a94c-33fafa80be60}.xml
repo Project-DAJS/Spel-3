@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{8aa49548-cfbe-4c25-8e6f-4b76c3f6a9ee}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{1731662a-d925-4fda-9502-6c456218008e}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{da680d5c-b5e0-43a0-8861-a621f24e1028}</destination>
 		</relationship>
@@ -79,6 +82,11 @@
 		<relationship name="modules">
 			<destination>{bdde4eb1-300f-4d28-b779-2c55d60d5788}</destination>
 			<destination>{4353737a-b619-46dc-9b01-baec94374124}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{1731662a-d925-4fda-9502-6c456218008e}">
+		<relationship name="preset">
+			<destination>{85b76ea2-338f-4775-b6dc-b91d6d732228}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b1452f6c-8367-4979-b763-e53007316a28}">
@@ -145,7 +153,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9224877d-5129-405e-9e46-0c558f4e0b3b}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>Mice_Attack</value>
@@ -164,9 +172,17 @@
 		<relationship name="effects">
 			<destination>{c914b88f-b1b4-4606-9f36-dae2433a55e1}</destination>
 			<destination>{632b9c6d-d117-4889-b2f1-15d8d21f3b14}</destination>
+			<destination>{bb6f6194-0eea-4746-825b-bdbf82c8ed70}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{e245f259-852e-433a-861b-6bc35a8466e1}" />
+	<object class="MixerBusPanner" id="{e245f259-852e-433a-861b-6bc35a8466e1}">
+		<property name="surroundPanDirection">
+			<value>-122.969406</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>3.51158142</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{8df55a20-df68-466c-a383-75204d8a048c}" />
 	<object class="RandomizerModulator" id="{61e37ace-bce1-4739-be97-304d8c890cda}">
 		<property name="nameOfPropertyBeingModulated">
@@ -213,6 +229,14 @@
 	<object class="MixerBusPanner" id="{d386249d-82a5-44a1-ba56-6970b59878ea}" />
 	<object class="MixerBusFader" id="{c914b88f-b1b4-4606-9f36-dae2433a55e1}" />
 	<object class="SpatialiserEffect" id="{632b9c6d-d117-4889-b2f1-15d8d21f3b14}" />
+	<object class="ProxyEffect" id="{bb6f6194-0eea-4746-825b-bdbf82c8ed70}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="preset">
+			<destination>{54a46d9e-ca53-435b-8519-0d8f0b7e66e5}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{e012bdfa-49ab-425d-9157-1574e5488bed}" />
 	<object class="MixerBusFader" id="{90515017-14c4-4d13-8837-e8c3a1af8666}" />
 </objects>
