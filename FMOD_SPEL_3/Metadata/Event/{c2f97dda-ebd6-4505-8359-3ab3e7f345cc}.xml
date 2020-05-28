@@ -5,7 +5,7 @@
 			<value>Laser_TriggerClick</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{95325942-55aa-4a6e-859d-abd7ea3b63a4}</destination>
@@ -100,6 +100,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{485528ae-0262-4ca9-a95c-e39c6f858182}">
+		<property name="volume">
+			<value>-16.5</value>
+		</property>
 		<property name="name">
 			<value>Trigger Click</value>
 		</property>
@@ -116,7 +119,6 @@
 	<object class="MixerBusEffectChain" id="{d9609e74-e4de-4bad-a1b9-918b165be116}">
 		<relationship name="effects">
 			<destination>{d2fe36fe-4639-47a8-8cb9-49d714aec26e}</destination>
-			<destination>{5dbedcdf-f718-405b-abe0-4c853aa035bc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{701d87cf-5403-407d-939f-4459d8c05059}" />
@@ -137,7 +139,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{28e6b8de-0037-48ad-934f-4d31a06bb563}" />
 	<object class="MixerBusFader" id="{d2fe36fe-4639-47a8-8cb9-49d714aec26e}" />
-	<object class="SpatialiserEffect" id="{5dbedcdf-f718-405b-abe0-4c853aa035bc}" />
 	<object class="AutomationPoint" id="{befeded9-e597-4ee0-bdfd-3f1c79511b2d}">
 		<property name="position">
 			<value>0.094263038548752828</value>

@@ -5,7 +5,7 @@
 			<value>SmallCave_amb</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{29f50b21-21b5-440d-9900-fa3ef36c9e81}</destination>
@@ -169,7 +169,6 @@
 	<object class="MixerBusEffectChain" id="{6c31a76d-74af-469b-9241-fbde68ba52d2}">
 		<relationship name="effects">
 			<destination>{fd0a5e37-eced-4741-a78f-496d86ccd89b}</destination>
-			<destination>{f4af69cb-1624-4a0b-a050-9c5a44d3e591}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ab052f1d-5f7c-4602-be3c-0ed94e9e4470}" />
@@ -208,7 +207,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ff922e4a-1129-44b4-971e-90e3f170f6fc}" />
 	<object class="MixerBusFader" id="{fd0a5e37-eced-4741-a78f-496d86ccd89b}" />
-	<object class="SpatialiserEffect" id="{f4af69cb-1624-4a0b-a050-9c5a44d3e591}" />
 	<object class="MixerBusFader" id="{cd9915df-dba8-4edb-b603-0c748f621b46}" />
 	<object class="ThreeEQEffect" id="{f4c9a8ba-12fc-45a5-a4c2-b86ac3d39587}">
 		<property name="lowGain">

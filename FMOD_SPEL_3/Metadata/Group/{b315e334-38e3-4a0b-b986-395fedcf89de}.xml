@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{b315e334-38e3-4a0b-b986-395fedcf89de}">
-		<property name="volume">
-			<value>-15.5</value>
+		<property name="color">
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>Mittens_Foley</value>
@@ -20,6 +20,8 @@
 	<object class="MixerBusEffectChain" id="{e97e2126-1852-4eb3-ae26-a24a62395ccd}">
 		<relationship name="effects">
 			<destination>{6817092f-90f9-4a6e-b89d-61d81619aed7}</destination>
+			<destination>{3cef593c-b808-4479-b3b9-a8cbddb956c1}</destination>
+			<destination>{ecebd4bb-3ac0-4395-9cb4-b816bb76db98}</destination>
 			<destination>{2e3ff248-0d50-4a76-bed8-932b5aedba72}</destination>
 		</relationship>
 	</object>
@@ -30,6 +32,22 @@
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{3cef593c-b808-4479-b3b9-a8cbddb956c1}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{ec6e736b-b59b-4e7f-9a3e-01d82b738856}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{ecebd4bb-3ac0-4395-9cb4-b816bb76db98}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{2e3ff248-0d50-4a76-bed8-932b5aedba72}" />

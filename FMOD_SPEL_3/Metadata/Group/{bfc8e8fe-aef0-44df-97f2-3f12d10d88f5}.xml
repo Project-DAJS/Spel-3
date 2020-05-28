@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{bfc8e8fe-aef0-44df-97f2-3f12d10d88f5}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>Mittens_Distractions</value>
 		</property>
@@ -16,9 +19,18 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8e758c2e-5b6e-41dc-861c-32bdb01cdb49}">
 		<relationship name="effects">
+			<destination>{75d74d21-85f3-406d-a401-4ff52a3fdaf8}</destination>
 			<destination>{bc3439d1-ef4c-4cb4-a2b4-5d15aff39996}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0b23bd84-8438-4518-93a5-91f87b5da339}" />
+	<object class="MixerSend" id="{75d74d21-85f3-406d-a401-4ff52a3fdaf8}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{bc3439d1-ef4c-4cb4-a2b4-5d15aff39996}" />
 </objects>

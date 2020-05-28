@@ -84,6 +84,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{89871217-e4c3-47ed-9e00-7ad116f9b508}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{69d5a596-dd3c-4c7b-90a7-7002f8db5751}</destination>
 		</relationship>
@@ -169,6 +172,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bcc97d68-63d8-488a-9307-9301ff353bc2}">
+		<property name="volume">
+			<value>-27</value>
+		</property>
 		<property name="name">
 			<value>TEST CAT</value>
 		</property>

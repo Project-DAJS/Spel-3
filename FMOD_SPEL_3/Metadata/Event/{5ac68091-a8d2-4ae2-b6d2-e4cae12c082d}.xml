@@ -104,6 +104,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bdbc2ad1-d6f3-42c7-a470-61e892b59e31}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{70539c00-069d-4ea6-b469-aa80f6416d48}</destination>
 		</relationship>
@@ -164,7 +167,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{40dce317-ead8-48ad-819f-99c9d723d0b5}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-20</value>
 		</property>
 		<property name="name">
 			<value>Loop</value>
@@ -203,7 +206,7 @@
 			<value>-6</value>
 		</property>
 		<property name="pitch">
-			<value>8</value>
+			<value>15</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>450</value>
@@ -217,7 +220,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ffba5ef8-0dfd-4d6c-a7e8-dd474f365655}">
 		<property name="volume">
-			<value>-8</value>
+			<value>1.5</value>
 		</property>
 		<property name="name">
 			<value>Spots</value>
@@ -256,7 +259,11 @@
 			<destination>{989e4363-449f-436c-9548-bc835abf4b6a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{df0c3cc7-b6a8-4406-8a52-4f2335d42fe8}" />
+	<object class="MixerBusPanner" id="{df0c3cc7-b6a8-4406-8a52-4f2335d42fe8}">
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{7574010f-a297-4b84-b162-4262377052af}" />
 	<object class="TransitionSourceFadeOutCurve" id="{53c6386d-6b15-4d98-8506-a3c97c7c0fc5}">
 		<relationship name="startPoint">

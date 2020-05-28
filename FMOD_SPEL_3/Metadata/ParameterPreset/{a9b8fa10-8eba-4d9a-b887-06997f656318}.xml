@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{63881e16-4bf9-4d20-b9af-6b316cb2b969}">
+	<object class="ParameterPreset" id="{a9b8fa10-8eba-4d9a-b887-06997f656318}">
 		<property name="name">
-			<value>Upgrade lvl</value>
+			<value>Master_Volume_P</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{f87f0dfb-9761-45b9-b76a-c3d74651dffd}</destination>
+			<destination>{451e27ef-a1fb-4d21-82bb-a7d0753cdc02}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{f87f0dfb-9761-45b9-b76a-c3d74651dffd}">
-		<property name="parameterType">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>6</value>
-		</property>
+	<object class="GameParameter" id="{451e27ef-a1fb-4d21-82bb-a7d0753cdc02}">
 		<property name="isGlobal">
 			<value>true</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>

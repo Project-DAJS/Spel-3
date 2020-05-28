@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{0f82a025-ea17-4ba3-889f-2e0b138d1e8d}">
+		<property name="name">
+			<value>Ambience_Master_Volume_P</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b42f89c-aac0-41ee-aa9f-12e3a2cc6188}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c342ac2d-dbb1-4b20-97d2-dfaf8ab00eab}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c342ac2d-dbb1-4b20-97d2-dfaf8ab00eab}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
