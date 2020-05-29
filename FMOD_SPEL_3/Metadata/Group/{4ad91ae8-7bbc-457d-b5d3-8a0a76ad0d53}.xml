@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{4ad91ae8-7bbc-457d-b5d3-8a0a76ad0d53}">
+		<property name="name">
+			<value>Mittens_Scratch</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2de8347c-2ece-4516-83a4-406a7aa5c9b2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{60132522-a756-437f-88ed-35251944b327}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2de8347c-2ece-4516-83a4-406a7aa5c9b2}">
+		<relationship name="effects">
+			<destination>{9c22dfcf-1f15-49a1-99e9-1aafdb0c1dc5}</destination>
+			<destination>{c25dac69-a298-4bc6-aa1a-d37f2c36907d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{60132522-a756-437f-88ed-35251944b327}" />
+	<object class="MixerSend" id="{9c22dfcf-1f15-49a1-99e9-1aafdb0c1dc5}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{c25dac69-a298-4bc6-aa1a-d37f2c36907d}" />
+</objects>

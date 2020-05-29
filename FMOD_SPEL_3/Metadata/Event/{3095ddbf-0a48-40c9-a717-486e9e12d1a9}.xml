@@ -197,7 +197,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c0b74fec-231d-450e-9926-9b65718abe01}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Rustle Loop</value>
@@ -247,7 +247,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{469c7ce1-f339-497f-8069-d9d34245f211}">
 		<property name="volume">
-			<value>-20.5</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Crystal Shimmers</value>

@@ -5,7 +5,7 @@
 			<value>Spaceship_oil_can</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6213e8d0-08e0-482a-bf88-673761fb69ef}</destination>
@@ -160,7 +160,6 @@
 	<object class="MixerBusEffectChain" id="{950aafc5-342b-4c0e-adb6-7843979951d7}">
 		<relationship name="effects">
 			<destination>{d68031b4-7ecb-448f-84ac-05a0d7600e0f}</destination>
-			<destination>{0d18faa5-eaef-47cf-8da0-46401fc27cd0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{78d8642a-e737-4388-aff0-81bb4dcee6b6}" />
@@ -194,7 +193,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{066bf0aa-7c0e-4676-906e-fa2c284ba9e3}" />
 	<object class="MixerBusFader" id="{d68031b4-7ecb-448f-84ac-05a0d7600e0f}" />
-	<object class="SpatialiserEffect" id="{0d18faa5-eaef-47cf-8da0-46401fc27cd0}" />
 	<object class="AutomationPoint" id="{597219c9-307e-43ea-a9e2-2d23be8ae958}">
 		<property name="position">
 			<value>2.6500000000000004</value>

@@ -5,7 +5,7 @@
 			<value>Spaceship_cogwheel</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6213e8d0-08e0-482a-bf88-673761fb69ef}</destination>
@@ -157,7 +157,6 @@
 	<object class="MixerBusEffectChain" id="{2642f78a-7034-4da8-a711-ec26aed31f0d}">
 		<relationship name="effects">
 			<destination>{83559787-d14b-4867-8e25-405abc513e26}</destination>
-			<destination>{4ab33a55-4b2c-410b-8d38-e2fe038e6d57}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c2167049-6ecb-4f2c-8fd2-b9ea8701ba9a}" />
@@ -183,7 +182,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c358fcde-a2a3-4e86-a4ee-d51b2b749983}" />
 	<object class="MixerBusFader" id="{83559787-d14b-4867-8e25-405abc513e26}" />
-	<object class="SpatialiserEffect" id="{4ab33a55-4b2c-410b-8d38-e2fe038e6d57}" />
 	<object class="AutomationPoint" id="{656668fd-17fc-4118-82c6-188968a5d766}">
 		<property name="position">
 			<value>2.6500000000000004</value>

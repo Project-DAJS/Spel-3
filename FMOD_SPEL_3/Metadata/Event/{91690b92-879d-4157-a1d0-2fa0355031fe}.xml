@@ -215,6 +215,7 @@
 		<relationship name="effects">
 			<destination>{0c5076a2-e83b-4231-b5da-ec1817084417}</destination>
 			<destination>{e9a78f37-118c-4471-b049-a9a25da0051d}</destination>
+			<destination>{7c855ead-dfbf-416b-87b6-f328893fe582}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{842d97e9-5b99-4c3c-ab79-570fa83c0159}" />
@@ -284,6 +285,14 @@
 	</object>
 	<object class="MixerBusFader" id="{0c5076a2-e83b-4231-b5da-ec1817084417}" />
 	<object class="ProxyEffect" id="{e9a78f37-118c-4471-b049-a9a25da0051d}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+		</relationship>
+	</object>
+	<object class="ProxyEffect" id="{7c855ead-dfbf-416b-87b6-f328893fe582}">
 		<property name="inputFormat">
 			<value>1</value>
 		</property>

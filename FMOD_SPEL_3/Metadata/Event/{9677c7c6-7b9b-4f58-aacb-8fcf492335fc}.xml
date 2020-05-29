@@ -181,6 +181,7 @@
 		<relationship name="effects">
 			<destination>{5fb648aa-c939-4ed1-9f16-0d16d2b93237}</destination>
 			<destination>{514cc42a-b429-4270-96d3-fa4a1d06c2ec}</destination>
+			<destination>{c94b0bb5-76e4-4426-ba05-eac1bb168753}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c479aa3e-0ed2-499c-9652-e399439eeb7d}" />
@@ -237,6 +238,14 @@
 		<property name="minimumDistance">
 			<value>5</value>
 		</property>
+	</object>
+	<object class="ProxyEffect" id="{c94b0bb5-76e4-4426-ba05-eac1bb168753}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+		</relationship>
 	</object>
 	<object class="SingleSound" id="{32d44f3d-a0d0-48fb-9aa4-191af810501e}">
 		<relationship name="audioFile">

@@ -142,7 +142,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d59d6620-cd3d-4c36-b863-5bfeae3eed56}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-22.5</value>
 		</property>
 		<property name="name">
 			<value>PAIN Sound</value>
@@ -224,7 +224,11 @@
 			<destination>{bed0ff70-2b2f-494c-b048-3895bf1e663d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{b625d5d9-e24f-410a-82c9-8f522458e865}" />
+	<object class="MixerBusPanner" id="{b625d5d9-e24f-410a-82c9-8f522458e865}">
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d69d0683-f0a1-40e5-b02e-2955d2463e44}" />
 	<object class="RandomizerModulator" id="{c0cfa6fc-4e20-471f-b85f-ad560b4571dc}">
 		<property name="nameOfPropertyBeingModulated">

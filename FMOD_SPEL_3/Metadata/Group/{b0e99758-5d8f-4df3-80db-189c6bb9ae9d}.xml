@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{b0e99758-5d8f-4df3-80db-189c6bb9ae9d}">
+		<property name="name">
+			<value>Mountain_RocksFALL</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{016d1de8-3214-4f17-9e05-9b028ced43c0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f9fb4610-4e24-43c5-b2c1-8aa2f2e0e125}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{876482e8-d4d6-4aff-9580-6c4d7b23d67a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{016d1de8-3214-4f17-9e05-9b028ced43c0}">
+		<relationship name="effects">
+			<destination>{8e0ae944-7ba1-4ef3-a40e-a998c28a8fa2}</destination>
+			<destination>{9f7167a0-1f39-4201-8942-209ba211e9f9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f9fb4610-4e24-43c5-b2c1-8aa2f2e0e125}" />
+	<object class="MixerSend" id="{8e0ae944-7ba1-4ef3-a40e-a998c28a8fa2}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{9f7167a0-1f39-4201-8942-209ba211e9f9}" />
+</objects>
