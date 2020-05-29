@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d29b0eea-b272-4442-baf6-0fdc65a7bb68}">
+		<property name="assetPath">
+			<value>Ambience/Stone/wind_gusts_form_stones/wind_gust_long.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6768229166666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{90e2b38c-d52c-4595-9dbf-8cddabf6e111}">
+		<property name="assetPath">
+			<value>Ambience/Stone/Falling_rocks_hit_ground/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>
+		</relationship>
+	</object>
+</objects>
