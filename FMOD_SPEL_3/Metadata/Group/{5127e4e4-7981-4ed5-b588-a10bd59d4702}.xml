@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{5127e4e4-7981-4ed5-b588-a10bd59d4702}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>Mittens_PowerUPS</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f6f568bd-4e19-4592-8d8e-f514a3def7e6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{fddbe6d7-6693-47a0-a5d6-52f072604a95}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f6f568bd-4e19-4592-8d8e-f514a3def7e6}">
+		<relationship name="effects">
+			<destination>{b8db236a-c825-4d16-bd82-49cf519f41be}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{fddbe6d7-6693-47a0-a5d6-52f072604a95}" />
+	<object class="MixerBusFader" id="{b8db236a-c825-4d16-bd82-49cf519f41be}" />
+</objects>

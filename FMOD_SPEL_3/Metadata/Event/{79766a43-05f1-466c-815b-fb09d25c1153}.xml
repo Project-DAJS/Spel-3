@@ -98,6 +98,9 @@
 		<property name="maximumTimeBetweenSounds">
 			<value>7000</value>
 		</property>
+		<property name="maximumScatterDistance">
+			<value>75</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{7f4fa2c7-3448-4a97-be27-742b3af5993f}</destination>
 		</relationship>
@@ -107,7 +110,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{29e200ee-6897-408a-93e1-a8ee21848f9e}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-14</value>
 		</property>
 		<property name="name">
 			<value>Frogs/cursed chatting</value>
@@ -161,7 +164,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{74917b47-ce61-4304-97ee-e10423ea61f5}" />
-	<object class="SpatialiserEffect" id="{eb74af11-2581-443e-8db7-b774e3db5978}" />
+	<object class="SpatialiserEffect" id="{eb74af11-2581-443e-8db7-b774e3db5978}">
+		<property name="maximumDistance">
+			<value>26</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{e2ba6aee-5419-46e0-b9e0-15b05540f88b}">
 		<relationship name="audioFile">
 			<destination>{6d08543a-109f-4f52-bf09-ebbba40ffe50}</destination>

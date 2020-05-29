@@ -149,7 +149,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7259b120-bed2-4414-99e1-9f4e65051298}">
 		<property name="volume">
-			<value>-26</value>
+			<value>-13</value>
 		</property>
 		<property name="name">
 			<value>Crystal loop</value>
@@ -189,7 +189,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7f6462da-0025-4a89-b555-bc00845a0d97}">
 		<property name="volume">
-			<value>-48</value>
+			<value>-40</value>
 		</property>
 		<property name="name">
 			<value>Crystal Shimmers</value>
@@ -225,7 +225,7 @@
 		<relationship name="effects">
 			<destination>{98bf9d43-40f0-4141-b4ca-ec0d7c0f65de}</destination>
 			<destination>{4178d42c-ee94-4945-8c56-ed528d7953ea}</destination>
-			<destination>{fdf0e437-1023-4b63-8bc1-69c16b3c7b1a}</destination>
+			<destination>{9158422b-b3b9-4d21-b717-4fb020d07c68}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{30e691c6-c443-4106-8e95-3f97e471248b}" />
@@ -297,16 +297,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{98bf9d43-40f0-4141-b4ca-ec0d7c0f65de}" />
-	<object class="SpatialiserEffect" id="{4178d42c-ee94-4945-8c56-ed528d7953ea}" />
-	<object class="MixerSend" id="{fdf0e437-1023-4b63-8bc1-69c16b3c7b1a}">
-		<property name="level">
-			<value>-27.5</value>
+	<object class="SpatialiserEffect" id="{4178d42c-ee94-4945-8c56-ed528d7953ea}">
+		<property name="distanceRolloffType">
+			<value>3</value>
 		</property>
+		<property name="maximumDistance">
+			<value>7</value>
+		</property>
+	</object>
+	<object class="ProxyEffect" id="{9158422b-b3b9-4d21-b717-4fb020d07c68}">
 		<property name="inputFormat">
 			<value>2</value>
 		</property>
-		<relationship name="mixerReturn">
-			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
+		<relationship name="preset">
+			<destination>{54a46d9e-ca53-435b-8519-0d8f0b7e66e5}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{4cff5360-4699-4983-90f0-c1abf96c5f6f}">

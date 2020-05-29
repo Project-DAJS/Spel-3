@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{4e8b46fb-448d-4abd-ac28-7d6d0a5579ab}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{4262eb2b-bde5-42bd-b69f-f88084d27bd5}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{f94ae298-643e-4f1f-902c-e77e4541a5ca}</destination>
 		</relationship>
@@ -81,7 +84,15 @@
 			<destination>{1b224740-25a2-4fec-91df-55e335c3b158}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{4262eb2b-bde5-42bd-b69f-f88084d27bd5}">
+		<relationship name="preset">
+			<destination>{85b76ea2-338f-4775-b6dc-b91d6d732228}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{d183e6fd-1245-478d-8386-fe08e3b4b644}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3665eb96-e275-435e-9336-58ae5b21eb9b}</destination>
 		</relationship>
@@ -122,9 +133,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e983a20d-5872-419f-86f4-685da12b6897}">
-		<property name="volume">
-			<value>-4</value>
-		</property>
 		<property name="name">
 			<value>Attack_Schreech</value>
 		</property>
@@ -159,7 +167,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{de05b774-8494-4c86-bc90-83666f6a7c5c}">
 		<property name="volume">
-			<value>-22.5</value>
+			<value>-19</value>
 		</property>
 		<property name="name">
 			<value>Gore_Layer</value>
@@ -178,9 +186,17 @@
 		<relationship name="effects">
 			<destination>{5ea3c806-69fe-4e7b-82ce-5d6d1b6660c0}</destination>
 			<destination>{91e9f2d5-2808-4be2-bf00-3b8f85553a1e}</destination>
+			<destination>{26983c88-d02b-4c68-8e96-65960b5e5bf5}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{9d32f623-2789-4e07-b32f-39e4c34479a8}" />
+	<object class="MixerBusPanner" id="{9d32f623-2789-4e07-b32f-39e4c34479a8}">
+		<property name="surroundPanDirection">
+			<value>1.39718103</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>15.5967712</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c3f2cd03-5c5d-44ae-9e19-4e5f99ab863e}" />
 	<object class="RandomizerModulator" id="{c459ceb9-db75-448a-a055-0d7d6a59ea46}">
 		<property name="nameOfPropertyBeingModulated">
@@ -243,7 +259,6 @@
 	<object class="MixerBusEffectChain" id="{fea7debc-efe4-4cfa-961c-864170aad324}">
 		<relationship name="effects">
 			<destination>{d277b4f2-ece6-49bd-9bde-456a446ed7f2}</destination>
-			<destination>{974275ca-3ecc-4267-8054-6f5c689a026d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a285309d-1f75-49f1-8d61-534f3672b52e}" />
@@ -308,17 +323,14 @@
 	<object class="MixerBusPanner" id="{05310e18-ff1d-4ba4-8045-c7bc2386ba3e}" />
 	<object class="MixerBusFader" id="{5ea3c806-69fe-4e7b-82ce-5d6d1b6660c0}" />
 	<object class="SpatialiserEffect" id="{91e9f2d5-2808-4be2-bf00-3b8f85553a1e}" />
-	<object class="MixerBusFader" id="{d277b4f2-ece6-49bd-9bde-456a446ed7f2}" />
-	<object class="MixerSend" id="{974275ca-3ecc-4267-8054-6f5c689a026d}">
-		<property name="level">
-			<value>-51</value>
-		</property>
+	<object class="ProxyEffect" id="{26983c88-d02b-4c68-8e96-65960b5e5bf5}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
-		<relationship name="mixerReturn">
-			<destination>{02aa4e13-2962-42f8-9417-55f97e291a8d}</destination>
+		<relationship name="preset">
+			<destination>{54a46d9e-ca53-435b-8519-0d8f0b7e66e5}</destination>
 		</relationship>
 	</object>
+	<object class="MixerBusFader" id="{d277b4f2-ece6-49bd-9bde-456a446ed7f2}" />
 	<object class="MixerBusFader" id="{03a8caeb-73e3-497a-a765-7f8c88a60f40}" />
 </objects>

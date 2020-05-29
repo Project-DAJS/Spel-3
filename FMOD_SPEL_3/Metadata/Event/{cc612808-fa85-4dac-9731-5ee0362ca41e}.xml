@@ -198,7 +198,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0e73d40f-2d39-4c6f-890a-57e829d231f4}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>ice_FX</value>
@@ -235,7 +235,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8a2858ca-211b-4fa4-9dba-579bca352caf}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>SpaceWind</value>
@@ -270,6 +270,7 @@
 	<object class="MixerBusEffectChain" id="{5bc0b6ea-8c53-4016-86e8-aa9c51e7f6a8}">
 		<relationship name="effects">
 			<destination>{278240c8-ac7c-4a63-8f82-14c16a60592b}</destination>
+			<destination>{1675d2cd-b1f7-4a39-8874-1ed986d3ae99}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a1d230c5-0808-4138-afed-d6f1a84957ca}" />
@@ -353,6 +354,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{278240c8-ac7c-4a63-8f82-14c16a60592b}" />
+	<object class="ProxyEffect" id="{1675d2cd-b1f7-4a39-8874-1ed986d3ae99}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6d1ca4d2-b9f8-43b8-bb03-11380bdde2ca}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{fd1ba0e8-8b92-4f07-8ee8-25f8b94f1962}">
 		<property name="position">
 			<value>0</value>
@@ -394,7 +403,7 @@
 	<object class="MixerBusFader" id="{1beacb07-11e2-440f-85ea-5914cab29b67}" />
 	<object class="ThreeEQEffect" id="{0386fd4c-6c88-4db9-9f0e-37f986c366f5}">
 		<property name="lowGain">
-			<value>-13</value>
+			<value>-24</value>
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{0ad1d723-3b6b-4f13-a7a3-e48392b23f7d}">
@@ -463,10 +472,10 @@
 			<value>0.549824476</value>
 		</property>
 		<property name="qualityB">
-			<value>1.5999999</value>
+			<value>2.0999999</value>
 		</property>
 		<property name="gainB">
-			<value>14.5</value>
+			<value>-13</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{f839ae96-4895-4c68-8da7-e68a6884c54c}</destination>

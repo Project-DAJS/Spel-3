@@ -133,7 +133,7 @@
 	</object>
 	<object class="MultiSound" id="{6c2526bc-fb5a-40b9-ad95-72e49e7bdd81}">
 		<property name="start">
-			<value>8</value>
+			<value>2.1000000000000001</value>
 		</property>
 		<property name="length">
 			<value>2</value>
@@ -175,7 +175,7 @@
 	</object>
 	<object class="MultiSound" id="{1fa55414-daaa-411d-99ac-c1454c62e511}">
 		<property name="start">
-			<value>8</value>
+			<value>2.1000000000000001</value>
 		</property>
 		<property name="length">
 			<value>2</value>
@@ -217,7 +217,7 @@
 	</object>
 	<object class="MultiSound" id="{501547d2-0355-48f6-986c-31768fe7f8d8}">
 		<property name="start">
-			<value>8</value>
+			<value>2.1000000000000001</value>
 		</property>
 		<property name="length">
 			<value>2</value>
