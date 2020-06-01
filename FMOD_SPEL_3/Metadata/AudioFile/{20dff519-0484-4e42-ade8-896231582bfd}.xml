@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{795cb8a3-d711-4707-9c90-4925c8c5a4a0}">
+	<object class="AudioFile" id="{20dff519-0484-4e42-ade8-896231582bfd}">
 		<property name="assetPath">
-			<value>sfx/catomat/catomat_kaching_1.wav</value>
+			<value>Character SFX/New Meows/Animal_Cat_Meowing_2_SND11295 2 copy 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.50612500000000005</value>
+			<value>0.56214583333333334</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{53a945c1-e248-46c5-827e-36403b992cb5}</destination>

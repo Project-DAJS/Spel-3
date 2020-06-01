@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{161f426f-b754-4d6f-bfb4-fd147fc6945e}">
+		<property name="name">
+			<value>RaygunIMPACT</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{92fca4f6-4092-4725-bee7-79e0a94c8a15}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{082467ef-37b8-4cf7-b39f-d658d77257ce}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1dc04fdd-ab42-4f55-9261-d47a4bd5b06d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{92fca4f6-4092-4725-bee7-79e0a94c8a15}">
+		<relationship name="effects">
+			<destination>{35a4cae6-629e-4c4b-8769-f73eb9629c06}</destination>
+			<destination>{c09dfa94-ddc5-4bc2-840f-f630fe3abf83}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{082467ef-37b8-4cf7-b39f-d658d77257ce}" />
+	<object class="MixerSend" id="{35a4cae6-629e-4c4b-8769-f73eb9629c06}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{c09dfa94-ddc5-4bc2-840f-f630fe3abf83}" />
+</objects>

@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{cc971665-3544-402a-b9cf-94323f656665}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{67850dcc-39b1-4247-8e2d-434abf82ccf4}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{690b5994-b487-4ad6-b8c2-7146acf35ac5}">
 		<relationship name="masterBus">
@@ -82,6 +85,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b0399532-0f3d-4b75-9a18-ce91baf02050}">
+		<property name="volume">
+			<value>-16</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{4eb9d8f0-46da-47cc-bf79-1a7f104a9a38}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{5f344e45-8d3d-41e7-b06a-231432fbaaa7}</destination>
 		</relationship>
@@ -156,6 +165,17 @@
 			<destination>{b1f2cd55-84dc-4c9a-957d-6365f1118625}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{4eb9d8f0-46da-47cc-bf79-1a7f104a9a38}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{5f344e45-8d3d-41e7-b06a-231432fbaaa7}">
 		<relationship name="effects">
 			<destination>{4d4f608c-f76f-46a3-811d-3ef4f4199680}</destination>
@@ -182,7 +202,7 @@
 	<object class="MixerBusFader" id="{4d4f608c-f76f-46a3-811d-3ef4f4199680}" />
 	<object class="SpatialiserEffect" id="{da019065-ba38-4cf5-914b-b61147c01217}">
 		<property name="maximumDistance">
-			<value>6</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{b1dbb4ad-6210-45cf-a97c-ac5e4a4981c0}">

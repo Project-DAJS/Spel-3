@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{43f73248-ddbf-4fa2-b433-1a623c67152c}">
+		<relationship name="modulators">
+			<destination>{cb2b5bb2-c236-43a2-bd18-2473d0155564}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{c6589f9a-697a-4ad8-9fcc-f2df02240cac}</destination>
 		</relationship>
@@ -101,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b7ad274-8174-4c34-b90a-b6db69a74e76}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
 			<value>hover</value>
@@ -130,9 +133,27 @@
 			<destination>{7f41a828-af37-4fff-b34a-5f4534d0ddc1}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{cb2b5bb2-c236-43a2-bd18-2473d0155564}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>80</value>
+		</property>
+		<property name="peakValue">
+			<value>-0.577777863</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{c6589f9a-697a-4ad8-9fcc-f2df02240cac}">
 		<relationship name="effects">
 			<destination>{b4a651d7-be8d-4a2f-9f2f-ebd6412eefad}</destination>
+			<destination>{4b33cddb-b396-4870-8f94-b7439d2df9d1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7384af07-b5e9-41d6-913d-d6e98277573b}" />
@@ -145,6 +166,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{b7a33338-0212-4801-8b35-d80518958338}" />
 	<object class="MixerBusFader" id="{b4a651d7-be8d-4a2f-9f2f-ebd6412eefad}" />
+	<object class="ThreeEQEffect" id="{4b33cddb-b396-4870-8f94-b7439d2df9d1}">
+		<property name="lowGain">
+			<value>-13.5</value>
+		</property>
+		<property name="midGain">
+			<value>-13</value>
+		</property>
+	</object>
 	<object class="MultibandEqEffect" id="{e1271f83-f709-401d-8c02-43f994a1b3b8}">
 		<property name="frequencyA">
 			<value>750</value>

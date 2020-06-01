@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{f64258ff-0441-428c-9879-48d0aecd3371}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{f0b0483e-9df9-48f6-8c89-67b277340458}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{9f0af8f3-821e-47c5-9bad-0c0dda2576af}">
 		<relationship name="masterBus">
@@ -50,7 +53,7 @@
 			<destination>{c88e9b6a-3050-4778-8019-5a4a7608b427}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30ef76f8-ca05-4020-9803-60fafc205c60}</destination>
+			<destination>{b0e99758-5d8f-4df3-80db-189c6bb9ae9d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b40b217c-e17c-4211-9eb8-59f3310a05ee}" />
@@ -105,6 +108,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bdadcbcb-aaea-41d0-8254-2b807f7e7ad4}">
+		<property name="volume">
+			<value>-22.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
