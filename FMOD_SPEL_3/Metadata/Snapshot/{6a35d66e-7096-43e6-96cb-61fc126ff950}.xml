@@ -31,11 +31,14 @@
 			<destination>{ed57c864-75dd-48e4-abc5-c1264e1b7784}</destination>
 			<destination>{26820571-e4dc-455c-a9eb-efa47b8fc653}</destination>
 			<destination>{69e09044-c807-4370-99d8-2c9a36499fdc}</destination>
+			<destination>{608a1ffe-5414-425e-be59-608684b1d0e5}</destination>
+			<destination>{972f457e-f95c-4ebd-8803-d864d86832dc}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{fa98d284-d443-4b2d-978a-a53b4488907f}</destination>
 			<destination>{50915bea-aab1-4d95-bfc1-e900f4d56688}</destination>
 			<destination>{2a676432-49ac-42a5-bd78-9d981a1a7b83}</destination>
+			<destination>{5869e7c2-c84f-4723-91de-aaa460594653}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{276e9937-d3c5-43a4-b739-b62f44cf55b0}" />
@@ -163,6 +166,28 @@
 			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{608a1ffe-5414-425e-be59-608684b1d0e5}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{972f457e-f95c-4ebd-8803-d864d86832dc}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{fa43d90f-32fa-45d1-bb40-a6bb6785b4ca}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{fa98d284-d443-4b2d-978a-a53b4488907f}">
 		<relationship name="mixerStrip">
 			<destination>{86782a59-b91d-4a9b-95fc-86a13c2b2e4a}</destination>
@@ -176,6 +201,11 @@
 	<object class="SnapshotTrack" id="{2a676432-49ac-42a5-bd78-9d981a1a7b83}">
 		<relationship name="mixerStrip">
 			<destination>{fa43d90f-32fa-45d1-bb40-a6bb6785b4ca}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{5869e7c2-c84f-4723-91de-aaa460594653}">
+		<relationship name="mixerStrip">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
 		</relationship>
 	</object>
 </objects>

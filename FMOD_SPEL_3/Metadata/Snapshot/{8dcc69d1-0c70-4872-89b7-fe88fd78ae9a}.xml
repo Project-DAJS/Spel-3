@@ -57,6 +57,7 @@
 			<destination>{b54a657b-17b7-4a7e-9e76-6f1163e024cf}</destination>
 			<destination>{b3e2bd69-60fa-4221-9d55-c291d4a11cb4}</destination>
 			<destination>{78da213e-5946-4c96-a6fc-bf3b06550b3c}</destination>
+			<destination>{aa24d22d-9b0b-4ff3-8287-b21d7ff12bb1}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{90b55398-082f-425b-8e05-d8113e91d9a0}</destination>
@@ -82,6 +83,7 @@
 			<destination>{379c3790-fff8-410e-9b0a-a4c08465fe2e}</destination>
 			<destination>{2b53c43c-2fb2-49cb-adba-dc903a924db4}</destination>
 			<destination>{af01a033-580c-4f52-bfa4-4f88a964dd9f}</destination>
+			<destination>{ec8ada9d-9581-48ba-835e-dbf29ab98cfa}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4453a3bf-8d85-4b88-8073-9b838ffdce90}" />
@@ -495,6 +497,17 @@
 			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{aa24d22d-9b0b-4ff3-8287-b21d7ff12bb1}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{90b55398-082f-425b-8e05-d8113e91d9a0}">
 		<relationship name="mixerStrip">
 			<destination>{f98ac124-9aa6-48b3-8d9e-1694fd2fc719}</destination>
@@ -608,6 +621,11 @@
 	<object class="SnapshotTrack" id="{af01a033-580c-4f52-bfa4-4f88a964dd9f}">
 		<relationship name="mixerStrip">
 			<destination>{b0e99758-5d8f-4df3-80db-189c6bb9ae9d}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{ec8ada9d-9581-48ba-835e-dbf29ab98cfa}">
+		<relationship name="mixerStrip">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
 		</relationship>
 	</object>
 </objects>

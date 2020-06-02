@@ -78,6 +78,7 @@
 			<destination>{48b9d98f-5078-42b3-b1b3-39c6c94b8cc0}</destination>
 			<destination>{b9a22f68-9f81-42f7-8e38-42c3caf75a99}</destination>
 			<destination>{35015226-cadb-4d3c-aaa2-b8dd9af495e6}</destination>
+			<destination>{f529a112-8f86-42d3-a60e-08b062f9b2c3}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{7ed2412f-f466-45f6-a7b8-ed8305141b4b}</destination>
@@ -106,6 +107,7 @@
 			<destination>{ca610668-20b4-4712-9f69-d5af05d313d4}</destination>
 			<destination>{0d5d3f1e-25d0-4010-816f-6c5f95e55835}</destination>
 			<destination>{6c62c9d0-37e1-44da-95b9-cf88fe89af13}</destination>
+			<destination>{8d8c9c9f-3aa9-4a2b-8e90-92124b6780dc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d9949fe6-89eb-49b4-aff6-ea066c0617cc}" />
@@ -753,6 +755,17 @@
 			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{f529a112-8f86-42d3-a60e-08b062f9b2c3}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{7ed2412f-f466-45f6-a7b8-ed8305141b4b}">
 		<relationship name="mixerStrip">
 			<destination>{86782a59-b91d-4a9b-95fc-86a13c2b2e4a}</destination>
@@ -881,6 +894,11 @@
 	<object class="SnapshotTrack" id="{6c62c9d0-37e1-44da-95b9-cf88fe89af13}">
 		<relationship name="mixerStrip">
 			<destination>{161f426f-b754-4d6f-bfb4-fd147fc6945e}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{8d8c9c9f-3aa9-4a2b-8e90-92124b6780dc}">
+		<relationship name="mixerStrip">
+			<destination>{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}</destination>
 		</relationship>
 	</object>
 	<object class="RandomizerModulator" id="{32b5afa2-76f8-4948-9de2-3c7cedb99738}">
