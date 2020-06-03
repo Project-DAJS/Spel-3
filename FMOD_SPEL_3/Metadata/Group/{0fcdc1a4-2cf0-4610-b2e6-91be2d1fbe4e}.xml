@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{0fcdc1a4-2cf0-4610-b2e6-91be2d1fbe4e}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<property name="name">
 			<value>Music_Master</value>
 		</property>
@@ -17,8 +20,47 @@
 	<object class="MixerBusEffectChain" id="{57a07b79-3e08-4b2f-8842-fd83cf303afe}">
 		<relationship name="effects">
 			<destination>{f026903a-f99d-4a2b-b335-462c07fd9b54}</destination>
+			<destination>{c8d50eef-fbac-4ae1-bc32-263105cd8c5c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ae77f1f-4e1f-4099-b560-1296c41ffcab}" />
 	<object class="MixerBusFader" id="{f026903a-f99d-4a2b-b335-462c07fd9b54}" />
+	<object class="GainEffect" id="{c8d50eef-fbac-4ae1-bc32-263105cd8c5c}">
+		<relationship name="automators">
+			<destination>{5cd2400a-636f-4d72-b317-2434bc4b31ee}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{5cd2400a-636f-4d72-b317-2434bc4b31ee}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{d9ee0f07-cf9d-4436-86e2-b500753b68b1}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{d9ee0f07-cf9d-4436-86e2-b500753b68b1}">
+		<relationship name="parameter">
+			<destination>{136edbea-d6ae-440e-b74a-b420ebd54293}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{c8c4972b-c676-414f-b8ab-c9c53149859e}</destination>
+			<destination>{0bd5e2fe-1524-4bd8-8ae3-909361db6b3d}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{c8c4972b-c676-414f-b8ab-c9c53149859e}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0bd5e2fe-1524-4bd8-8ae3-909361db6b3d}">
+		<property name="position">
+			<value>0.98728813559322037</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
 </objects>

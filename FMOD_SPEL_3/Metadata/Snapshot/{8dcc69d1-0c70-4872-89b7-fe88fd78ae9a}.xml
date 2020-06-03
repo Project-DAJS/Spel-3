@@ -54,9 +54,6 @@
 			<destination>{5874d351-43e5-4571-91ca-e25acbe1a0a0}</destination>
 			<destination>{e3740636-7409-4480-957d-d2e10e893c34}</destination>
 			<destination>{5e10c625-da5d-4cab-ad59-44026f5231dc}</destination>
-			<destination>{b54a657b-17b7-4a7e-9e76-6f1163e024cf}</destination>
-			<destination>{b3e2bd69-60fa-4221-9d55-c291d4a11cb4}</destination>
-			<destination>{78da213e-5946-4c96-a6fc-bf3b06550b3c}</destination>
 			<destination>{aa24d22d-9b0b-4ff3-8287-b21d7ff12bb1}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
@@ -462,39 +459,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{b0e99758-5d8f-4df3-80db-189c6bb9ae9d}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{b54a657b-17b7-4a7e-9e76-6f1163e024cf}">
-		<property name="propertyName">
-			<value>frequencyA</value>
-		</property>
-		<property name="value">
-			<value>22000</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{b3e2bd69-60fa-4221-9d55-c291d4a11cb4}">
-		<property name="propertyName">
-			<value>qualityA</value>
-		</property>
-		<property name="value">
-			<value>0.419999987</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{78da213e-5946-4c96-a6fc-bf3b06550b3c}">
-		<property name="propertyName">
-			<value>gainA</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{a567e14a-18ac-4b55-917d-2129c1ab8b5f}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotProperty" id="{aa24d22d-9b0b-4ff3-8287-b21d7ff12bb1}">

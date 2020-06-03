@@ -118,7 +118,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{bc7588eb-becb-41b5-9c4f-1937dcc640fd}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-16.5</value>
 		</property>
 		<property name="name">
 			<value>Mittens_Spacesuit</value>
