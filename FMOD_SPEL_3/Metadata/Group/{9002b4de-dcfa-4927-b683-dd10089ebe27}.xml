@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerGroup" id="{9002b4de-dcfa-4927-b683-dd10089ebe27}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -21,6 +24,7 @@
 		<relationship name="effects">
 			<destination>{f4eddac5-abdc-428f-81ec-3e57e598b2f6}</destination>
 			<destination>{107981ec-2246-46e3-85a7-bf5a486aff94}</destination>
+			<destination>{82e68569-bc0e-4f37-bd2e-741aaba4ec0b}</destination>
 			<destination>{82277dd5-6e4e-4c44-b17c-4ecfe9eaef19}</destination>
 		</relationship>
 	</object>
@@ -40,6 +44,11 @@
 		<relationship name="mixerReturn">
 			<destination>{65262aca-15a7-4afb-bed4-11ebf5fab43d}</destination>
 		</relationship>
+	</object>
+	<object class="GainEffect" id="{82e68569-bc0e-4f37-bd2e-741aaba4ec0b}">
+		<property name="gain">
+			<value>1.5</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{82277dd5-6e4e-4c44-b17c-4ecfe9eaef19}" />
 </objects>

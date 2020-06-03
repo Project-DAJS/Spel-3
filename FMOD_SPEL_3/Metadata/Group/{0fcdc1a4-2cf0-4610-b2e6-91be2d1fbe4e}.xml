@@ -19,11 +19,29 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{57a07b79-3e08-4b2f-8842-fd83cf303afe}">
 		<relationship name="effects">
+			<destination>{48453430-5191-46b2-9367-afe114c093d3}</destination>
 			<destination>{f026903a-f99d-4a2b-b335-462c07fd9b54}</destination>
 			<destination>{c8d50eef-fbac-4ae1-bc32-263105cd8c5c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ae77f1f-4e1f-4099-b560-1296c41ffcab}" />
+	<object class="CompressorEffect" id="{48453430-5191-46b2-9367-afe114c093d3}">
+		<property name="threshold">
+			<value>-19</value>
+		</property>
+		<property name="attackTime">
+			<value>86</value>
+		</property>
+		<property name="releaseTime">
+			<value>10</value>
+		</property>
+		<property name="linkChannels">
+			<value>false</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{007cc643-6f0d-497b-9061-3d3f75189e63}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{f026903a-f99d-4a2b-b335-462c07fd9b54}" />
 	<object class="GainEffect" id="{c8d50eef-fbac-4ae1-bc32-263105cd8c5c}">
 		<relationship name="automators">

@@ -131,6 +131,12 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{1e933480-8cd7-43b4-bbe8-97d4694de2d6}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>43.5</value>
+		</property>
 		<property name="length">
 			<value>1.2199999999999998</value>
 		</property>
@@ -139,7 +145,6 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{7a621fb1-bcd1-40f9-830e-3ea8f4333a76}</destination>
-			<destination>{e1250b71-4094-4caf-a7d5-338cce858def}</destination>
 		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{97d7b354-911e-4306-87aa-ddca3200c397}</destination>
@@ -220,14 +225,6 @@
 			<value>9.5</value>
 		</property>
 	</object>
-	<object class="RandomizerModulator" id="{e1250b71-4094-4caf-a7d5-338cce858def}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>6.5</value>
-		</property>
-	</object>
 	<object class="FadeCurve" id="{97d7b354-911e-4306-87aa-ddca3200c397}">
 		<relationship name="startPoint">
 			<destination>{459c1f28-d431-40e2-8c52-417452292683}</destination>
@@ -259,6 +256,7 @@
 	<object class="MixerBusEffectChain" id="{2d09e8ed-2ce2-4db3-94f9-db4395c82b69}">
 		<relationship name="effects">
 			<destination>{fdff37a9-0a72-4d6a-b248-e7e625388a3c}</destination>
+			<destination>{340023ea-a518-452b-925b-d4cee14ffb33}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{206539e3-4b14-4485-ad13-0b74a661f1df}" />
@@ -316,7 +314,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>-0.462176323</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9451772a-bd86-4b18-ad4d-c7efa0d1dea2}">
@@ -328,5 +326,10 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fdff37a9-0a72-4d6a-b248-e7e625388a3c}" />
+	<object class="GainEffect" id="{340023ea-a518-452b-925b-d4cee14ffb33}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{24b4087c-5272-4390-a927-ef9b1a3a4260}" />
 </objects>
